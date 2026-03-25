@@ -2,6 +2,16 @@
 
 @import "tailwindcss";
 
+/* Hide number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 :root {
   --bg-primary: #0f0f10;
   --bg-secondary: #151517;
