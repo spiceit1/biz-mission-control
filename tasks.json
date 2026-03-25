@@ -1,0 +1,68 @@
+[
+  {
+    "id": "task-1",
+    "title": "NFL Season Ticket ROI Analysis",
+    "description": "Analyze which games have the highest flip potential based on opponent, day, and demand signals.",
+    "status": "done",
+    "assignee": "shmack",
+    "priority": "high",
+    "createdAt": "2026-03-20T10:00:00Z",
+    "updatedAt": "2026-03-24T02:27:05.406Z"
+  },
+  {
+    "id": "task-2",
+    "title": "Update Hebrew Slides Deck",
+    "description": "Add new slides for the next session — vocabulary, grammar exercises, and listening section.",
+    "status": "backlog",
+    "assignee": "douglas",
+    "priority": "medium",
+    "createdAt": "2026-03-21T09:30:00Z"
+  },
+  {
+    "id": "task-3",
+    "title": "NCAA Bracket App — Add 2026 Teams",
+    "description": "Update the bracket app with the 2026 tournament field. Seed data from official bracket release.",
+    "status": "done",
+    "assignee": "shmack",
+    "priority": "high",
+    "createdAt": "2026-03-21T14:00:00Z",
+    "updatedAt": "2026-03-24T02:27:05.407Z"
+  },
+  {
+    "id": "task-4",
+    "title": "Ticket Flip Tracker Cleanup",
+    "description": "Review and clean up old entries. Add profit/loss summary row at top.",
+    "status": "done",
+    "assignee": "shmack",
+    "priority": "low",
+    "createdAt": "2026-03-18T11:00:00Z"
+  },
+  {
+    "id": "task-5",
+    "title": "Mission Control Dashboard",
+    "description": "Build the local Next.js command center app for Douglas and Mr. Shmack.",
+    "status": "done",
+    "assignee": "shmack",
+    "priority": "high",
+    "createdAt": "2026-03-22T08:00:00Z",
+    "updatedAt": "2026-03-24T02:27:05.407Z"
+  },
+  {
+    "title": "Build Agent Factory — pixel art pipeline visualization",
+    "description": "Build a pixel art factory floor tab in Mission Control showing AI agents as characters moving tasks through pipeline stages (Backlog → Scanning → Analyzing → Alerting → Done). Mr. Shmack as main character, sub-agents as workers, cron jobs as moving task cards, live stats at bottom. Reference: user shared a screenshot of similar app called Factory.",
+    "status": "done",
+    "priority": "medium",
+    "assignee": "shmack",
+    "id": "task-15",
+    "updatedAt": "2026-03-24T02:03:30.000Z"
+  },
+  {
+    "title": "Rebuild R&D Team tab to match Research Lab design",
+    "description": "Redesign the R&D Council tab in Mission Control to match the Henry Research Lab screenshot. Key features: (1) Three tabs: Trend Radar, Opportunity Scanner, R&D Council. (2) Stats bar: total memos, council cost in $, last session timestamp, schedule. (3) Each memo card shows: memo number, agent role badge with color, category, date, large monospace title, status badge (NEEDS WORK/APPROVED/etc), tags, complexity, confidence %, cost. (4) PROBLEM and PROPOSAL sections in colored labels. (5) Full monospace terminal font throughout. (6) Track and display actual API cost per run. Reference screenshot saved in memory.",
+    "status": "done",
+    "priority": "high",
+    "assignee": "shmack",
+    "id": "task-16",
+    "updatedAt": "2026-03-24T02:03:30.000Z"
+  }
+]

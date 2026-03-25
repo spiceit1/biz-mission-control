@@ -1,0 +1,52 @@
+[
+  {
+    "id": "proj-1",
+    "name": "Season Ticket Resale",
+    "description": "NFL/NBA/NHL/MLB season ticket ROI analysis and automation. Track buy prices, sell prices, and profit/loss across all major sports leagues.",
+    "status": "active",
+    "priority": "high",
+    "assignee": "shmack",
+    "tasks": { "total": 10, "completed": 7 },
+    "createdAt": "2026-03-20T10:00:00Z"
+  },
+  {
+    "id": "proj-2",
+    "name": "Deal Scanner",
+    "description": "Automated mispriced ticket detection running every 20 minutes. Sends alerts via Telegram and email when deals are found.",
+    "status": "active",
+    "priority": "high",
+    "assignee": "shmack",
+    "tasks": { "total": 8, "completed": 6 },
+    "createdAt": "2026-03-18T15:30:00Z"
+  },
+  {
+    "id": "proj-3",
+    "name": "Ticket Flip Tracker",
+    "description": "Track individual ticket flips — buy price, sell price, profit/loss. Multi-platform listing across StubHub, Vivid Seats, and SeatGeek.",
+    "status": "active",
+    "priority": "medium",
+    "assignee": "douglas",
+    "tasks": { "total": 12, "completed": 4 },
+    "createdAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "id": "proj-4",
+    "name": "NCAA Bracket App",
+    "description": "Live scoring bracket app for the friend group. Real-time updates, leaderboard, and trash talk features for the 2026 tournament.",
+    "status": "completed",
+    "priority": "medium",
+    "assignee": "shmack",
+    "tasks": { "total": 15, "completed": 15 },
+    "createdAt": "2026-03-15T09:00:00Z"
+  },
+  {
+    "id": "proj-5",
+    "name": "Mission Control Dashboard",
+    "description": "Central command center for managing all projects, tasks, agents, and automations. The app you're looking at right now.",
+    "status": "active",
+    "priority": "medium",
+    "assignee": "shmack",
+    "tasks": { "total": 20, "completed": 14 },
+    "createdAt": "2026-03-16T16:00:00Z"
+  }
+]
