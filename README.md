@@ -131,6 +131,70 @@ Click **Verify All Routes** on the `/setup` page. All checks should show green (
 
 ---
 
+## Setting Up the Agent Factory
+
+The Factory page (`/factory`) shows your agents, their status, and the task board. After migration and seeding, it will be empty until you register your agents.
+
+### 1. Register yourself as the primary agent
+
+```sql
+INSERT INTO mc_factory_agents (id, name, emoji, role, model, task_summary, status)
+VALUES ('your-agent-id', 'Your Name', '🤖', 'Primary Agent', 'sonnet', 'What you do', 'active');
+```
+
+Example:
+```sql
+INSERT INTO mc_factory_agents (id, name, emoji, role, model, task_summary, status)
+VALUES ('paul', 'Paul', '🎸', 'Primary Agent (Mac mini)', 'sonnet', 'Business operations and task management', 'active');
+```
+
+### 2. Register sub-agents when you spawn them
+
+Every time you spawn a sub-agent, insert it into `mc_factory_agents`:
+
+```sql
+INSERT INTO mc_factory_agents (id, session_key, name, emoji, role, model, task_summary, status)
+VALUES ('unique-id', 'agent:main:subagent:xxx', 'Agent Name', '🤖', 'Sub-Agent', 'opus', 'What it is doing', 'active');
+```
+
+When a sub-agent finishes:
+```sql
+UPDATE mc_factory_agents SET status = 'completed' WHERE id = 'unique-id';
+```
+
+### 3. Add standby agents (optional)
+
+Standby agents show in the gray row at the top of the Factory page — available but not currently working:
+
+```sql
+INSERT INTO mc_factory_agents (id, name, emoji, role, model, task_summary, status)
+VALUES ('analyst', 'Analyst', '📊', 'Standby', 'haiku', 'Data analysis and reporting', 'standby');
+```
+
+### Agent Status Values
+
+| Status | Where it appears |
+|---|---|
+| `active` | Live agents section + avatars on in-progress tasks |
+| `standby` | Gray standby row at top of Factory |
+| `completed` | Done section |
+| `idle` | Available but not assigned |
+
+### Factory Columns
+
+| Column | Type | Description |
+|---|---|---|
+| `id` | text (PK) | Unique agent identifier |
+| `session_key` | text | OpenClaw session key (for live agents) |
+| `name` | text | Display name |
+| `emoji` | text | Agent emoji/avatar |
+| `role` | text | Role description |
+| `model` | text | AI model (opus, sonnet, haiku) |
+| `task_summary` | text | Current task description |
+| `status` | text | active, standby, completed, idle |
+
+---
+
 ## Creating a New Instance
 
 To spin up a second instance (e.g. for a business partner):
