@@ -1408,11 +1408,11 @@ function TaskDetailModal({
             {task.status}
           </span>
           <span style={{
-            color: task.assignee === "shmack" ? "#7c5cfc" : "#26c97a",
-            background: task.assignee === "shmack" ? "#7c5cfc18" : "#26c97a18",
+            color: task.assignee === "shmack" ? "#7c5cfc" : task.assignee === "paul" ? "#3b82f6" : "#26c97a",
+            background: task.assignee === "shmack" ? "#7c5cfc18" : task.assignee === "paul" ? "#3b82f618" : "#26c97a18",
             padding: "3px 8px", borderRadius: "4px", fontSize: "12px", fontWeight: 600,
           }}>
-            {task.assignee === "shmack" ? "🤙 Shmack" : "👤 Douglas"}
+            {task.assignee === "shmack" ? "🦈 Shmack" : task.assignee === "paul" ? "🎸 Paul" : task.assignee === "team" ? "👥 Team" : "👤 " + task.assignee}
           </span>
         </div>
 
@@ -1506,7 +1506,7 @@ function PixelTaskCard({ task, onSelect, isMobile }: { task: Task; onSelect: (ta
           {task.priority}
         </span>
         <span style={{ fontSize: "16px" }}>
-          {task.assignee === "shmack" ? "🤙" : "👤"}
+          {task.assignee === "shmack" ? "🦈" : task.assignee === "paul" ? "🎸" : task.assignee === "team" ? "👥" : "👤"}
         </span>
       </div>
     </div>
@@ -1851,7 +1851,7 @@ export default function AgentFactoryPage() {
 
   useEffect(() => {
     fetchData();
-    const interval = setInterval(fetchData, 30000);
+    const interval = setInterval(fetchData, 10000);
     return () => clearInterval(interval);
   }, [fetchData]);
 
