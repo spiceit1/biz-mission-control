@@ -1,5 +1,5 @@
 export type Priority = "high" | "medium" | "low";
-export type TaskStatus = "backlog" | "in-progress" | "in-review" | "done";
+export type TaskStatus = "backlog" | "in-progress" | "in-review" | "in_progress" | "standby" | "idle" | "needs_review" | "blocked" | "done";
 export type Assignee = "douglas" | "shmack";
 
 export interface Task {
@@ -10,16 +10,22 @@ export interface Task {
   assignee: Assignee;
   priority: Priority;
   createdAt: string;
+  updatedAt?: string;
+  agentId?: string;
+  reviewNotes?: string;
+  reviewedAt?: string;
 }
 
 export interface ActivityItem {
   id: string;
-  type: "task_completed" | "task_created" | "task_moved" | "agent_action";
+  type: "task_completed" | "task_created" | "task_moved" | "agent_action" | "agent_spawned" | "task_started" | "heartbeat_fired" | "cron_fired" | "memory_changed" | "document_changed" | "error" | "review_requested";
   message: string;
   taskId?: string;
   taskTitle?: string;
   timestamp: string;
-  actor: "douglas" | "shmack";
+  actor: string;
+  agentId?: string;
+  metadata?: Record<string, unknown>;
 }
 
 export interface Project {

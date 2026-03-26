@@ -304,6 +304,20 @@ const MIGRATIONS: string[] = [
     created_at TIMESTAMPTZ DEFAULT now(),
     updated_at TIMESTAMPTZ DEFAULT now()
   )`,
+  // v2 migrations: add columns to mc_tasks
+  `ALTER TABLE mc_tasks ADD COLUMN IF NOT EXISTS agent_id TEXT`,
+  `ALTER TABLE mc_tasks ADD COLUMN IF NOT EXISTS review_notes TEXT`,
+  `ALTER TABLE mc_tasks ADD COLUMN IF NOT EXISTS reviewed_at TIMESTAMPTZ`,
+  // Recreate mc_activity with proper columns if it only has data jsonb
+  `DO $$ BEGIN
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name='mc_activity' AND column_name='type') THEN
+      ALTER TABLE mc_activity ADD COLUMN IF NOT EXISTS type TEXT;
+      ALTER TABLE mc_activity ADD COLUMN IF NOT EXISTS agent_id TEXT;
+      ALTER TABLE mc_activity ADD COLUMN IF NOT EXISTS title TEXT;
+      ALTER TABLE mc_activity ADD COLUMN IF NOT EXISTS description TEXT;
+      ALTER TABLE mc_activity ADD COLUMN IF NOT EXISTS metadata JSONB;
+    END IF;
+  END $$`,
 ];
 
 export async function POST() {

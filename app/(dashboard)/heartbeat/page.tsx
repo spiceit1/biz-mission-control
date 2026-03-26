@@ -1,17 +1,18 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { Heart, RefreshCw, AlertTriangle } from "lucide-react";
 
 interface HeartbeatEntry {
   id: string;
   timestamp: string;
-  type: "ok" | "action" | "alert" | "task";
+  type: "ok" | "action" | "alert" | "task" | "error";
   summary: string;
   details?: string;
   taskName?: string;
 }
 
-type FilterType = "all" | "ok" | "action" | "task" | "alert";
+type FilterType = "all" | "ok" | "action" | "task" | "alert" | "error";
 
 function relativeTime(iso: string): string {
   const diff = Math.floor((Date.now() - new Date(iso).getTime()) / 1000);
@@ -22,25 +23,24 @@ function relativeTime(iso: string): string {
 }
 
 const ICONS: Record<string, string> = {
-  ok: "✅",
-  action: "⚡",
-  task: "📋",
-  alert: "🚨",
+  ok: "✅", action: "⚡", task: "📋", alert: "🚨", error: "❌",
 };
 
 const BADGE_STYLE: Record<string, { bg: string; color: string }> = {
-  ok:     { bg: "rgba(152,152,160,0.15)", color: "#9898a0" },
-  action: { bg: "rgba(77,124,254,0.15)",  color: "#4d7cfe" },
-  task:   { bg: "rgba(124,92,252,0.15)",  color: "#7c5cfc" },
-  alert:  { bg: "rgba(240,91,91,0.15)",   color: "#f05b5b" },
+  ok:     { bg: "rgba(38,201,122,0.15)",  color: "var(--accent-green)" },
+  action: { bg: "rgba(77,124,254,0.15)",  color: "var(--accent-blue)" },
+  task:   { bg: "rgba(124,92,252,0.15)",  color: "var(--accent-purple)" },
+  alert:  { bg: "rgba(240,180,41,0.15)",  color: "var(--accent-yellow)" },
+  error:  { bg: "rgba(240,91,91,0.15)",   color: "var(--accent-red)" },
 };
 
 const FILTER_TABS: { id: FilterType; label: string }[] = [
-  { id: "all",    label: "All"    },
-  { id: "ok",     label: "OK"     },
+  { id: "all", label: "All" },
+  { id: "ok", label: "OK" },
   { id: "action", label: "Action" },
-  { id: "task",   label: "Task"   },
-  { id: "alert",  label: "Alert"  },
+  { id: "task", label: "Task" },
+  { id: "alert", label: "Alert" },
+  { id: "error", label: "Error" },
 ];
 
 export default function HeartbeatPage() {
@@ -71,99 +71,188 @@ export default function HeartbeatPage() {
     return () => clearInterval(interval);
   }, [fetchData]);
 
-  // Count actions taken today
+  // Stats
   const todayStart = new Date();
   todayStart.setHours(0, 0, 0, 0);
   const actionsToday = entries.filter(
     (e) => e.type !== "ok" && new Date(e.timestamp) >= todayStart
   ).length;
+  const errorsToday = entries.filter(
+    (e) => (e.type === "error" || e.type === "alert") && new Date(e.timestamp) >= todayStart
+  ).length;
 
-  const filtered =
-    filter === "all" ? entries : entries.filter((e) => e.type === filter);
+  // Calculate drift between consecutive heartbeats
+  const sortedEntries = [...entries].sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+  const drifts: number[] = [];
+  for (let i = 0; i < sortedEntries.length - 1; i++) {
+    const diff = new Date(sortedEntries[i].timestamp).getTime() - new Date(sortedEntries[i + 1].timestamp).getTime();
+    drifts.push(diff);
+  }
+  const avgDriftMs = drifts.length > 0 ? drifts.reduce((a, b) => a + b, 0) / drifts.length : 0;
+  const maxDriftMs = drifts.length > 0 ? Math.max(...drifts) : 0;
+
+  // Per-agent heartbeat grouping
+  const agentMap: Record<string, { count: number; lastTs: string; types: Record<string, number> }> = {};
+  for (const e of entries) {
+    const name = e.taskName || "system";
+    if (!agentMap[name]) agentMap[name] = { count: 0, lastTs: e.timestamp, types: {} };
+    agentMap[name].count++;
+    agentMap[name].types[e.type] = (agentMap[name].types[e.type] || 0) + 1;
+    if (new Date(e.timestamp) > new Date(agentMap[name].lastTs)) {
+      agentMap[name].lastTs = e.timestamp;
+    }
+  }
+
+  // Timeline: last 24 hours in 1-hour buckets
+  const now = Date.now();
+  const hours: { hour: number; count: number; errors: number }[] = [];
+  for (let i = 23; i >= 0; i--) {
+    const bucketStart = now - (i + 1) * 3600000;
+    const bucketEnd = now - i * 3600000;
+    const inBucket = entries.filter((e) => {
+      const ts = new Date(e.timestamp).getTime();
+      return ts >= bucketStart && ts < bucketEnd;
+    });
+    hours.push({
+      hour: 23 - i,
+      count: inBucket.length,
+      errors: inBucket.filter((e) => e.type === "error" || e.type === "alert").length,
+    });
+  }
+  const maxCount = Math.max(1, ...hours.map((h) => h.count));
+
+  const filtered = filter === "all" ? sortedEntries : sortedEntries.filter((e) => e.type === filter);
+
+  // Missed heartbeat warning: if last heartbeat > 10 min ago
+  const lastHbAge = lastHeartbeat ? (Date.now() - new Date(lastHeartbeat).getTime()) / 60000 : Infinity;
+  const missedWarning = lastHbAge > 10;
 
   return (
-    <div
-      className="flex flex-col h-full overflow-hidden"
-      style={{ background: "var(--bg-primary)" }}
-    >
+    <div style={{ display: "flex", flexDirection: "column", height: "100%", overflow: "hidden", background: "var(--bg-primary)" }}>
       {/* Header */}
-      <div
-        className="flex-shrink-0 px-6 py-5 border-b"
-        style={{ borderColor: "var(--border-subtle)" }}
-      >
-        <h1
-          className="text-xl font-bold tracking-widest uppercase mb-4"
-          style={{ color: "#ffffff", letterSpacing: "0.15em" }}
-        >
-          HEARTBEAT LOG
-        </h1>
-
-        {/* Stats bar */}
-        <div className="flex gap-6">
-          <div
-            className="px-4 py-2.5 rounded-lg border"
+      <div style={{ flexShrink: 0, padding: "24px 32px", borderBottom: "1px solid var(--border-subtle)" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
+          <div>
+            <h1 style={{ fontSize: "24px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "4px" }}>
+              <Heart size={20} style={{ display: "inline", marginRight: "8px", verticalAlign: "middle", color: "var(--accent-red)" }} />
+              Heartbeat Monitor
+            </h1>
+            <p style={{ color: "var(--text-secondary)", fontSize: "14px" }}>
+              Agent health monitoring · auto-refreshes every 30s
+            </p>
+          </div>
+          <button
+            onClick={() => { setLoading(true); fetchData(); }}
             style={{
-              background: "var(--bg-elevated)",
-              borderColor: "var(--border-subtle)",
+              display: "flex", alignItems: "center", gap: "8px", padding: "8px 16px",
+              borderRadius: "8px", border: "1px solid var(--border-subtle)",
+              background: "var(--bg-secondary)", color: "var(--text-secondary)", cursor: "pointer", fontSize: "13px",
             }}
           >
-            <div className="text-xs uppercase tracking-wider mb-1" style={{ color: "#ffffff", opacity: 0.6, fontSize: "0.6rem" }}>
-              Total Today
-            </div>
-            <div className="text-2xl font-bold" style={{ color: "#ffffff" }}>
-              {totalToday}
-            </div>
-          </div>
+            <RefreshCw size={14} /> Refresh
+          </button>
+        </div>
 
-          <div
-            className="px-4 py-2.5 rounded-lg border"
-            style={{
-              background: "var(--bg-elevated)",
-              borderColor: "var(--border-subtle)",
-            }}
-          >
-            <div className="text-xs uppercase tracking-wider mb-1" style={{ color: "#ffffff", opacity: 0.6, fontSize: "0.6rem" }}>
-              Last Heartbeat
+        {/* Stats */}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", gap: "12px" }}>
+          {[
+            { label: "Total Today", value: totalToday, color: "var(--text-primary)" },
+            { label: "Last Heartbeat", value: lastHeartbeat ? relativeTime(lastHeartbeat) : "—", color: missedWarning ? "var(--accent-red)" : "var(--text-primary)" },
+            { label: "Actions Today", value: actionsToday, color: "var(--accent-blue)" },
+            { label: "Errors Today", value: errorsToday, color: errorsToday > 0 ? "var(--accent-red)" : "var(--accent-green)" },
+            { label: "Avg Interval", value: avgDriftMs > 0 ? `${Math.round(avgDriftMs / 60000)}m` : "—", color: "var(--text-primary)" },
+            { label: "Max Gap", value: maxDriftMs > 0 ? `${Math.round(maxDriftMs / 60000)}m` : "—", color: maxDriftMs > 1800000 ? "var(--accent-yellow)" : "var(--text-primary)" },
+          ].map((stat) => (
+            <div key={stat.label} style={{
+              padding: "14px 16px", background: "var(--bg-secondary)", borderRadius: "10px",
+              border: "1px solid var(--border-subtle)",
+            }}>
+              <div style={{ fontSize: "11px", color: "var(--text-tertiary)", textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: "6px" }}>
+                {stat.label}
+              </div>
+              <div style={{ fontSize: "22px", fontWeight: 700, color: stat.color }}>{stat.value}</div>
             </div>
-            <div className="text-2xl font-bold" style={{ color: "#ffffff" }}>
-              {lastHeartbeat ? relativeTime(lastHeartbeat) : "—"}
-            </div>
-          </div>
+          ))}
+        </div>
 
-          <div
-            className="px-4 py-2.5 rounded-lg border"
-            style={{
-              background: "var(--bg-elevated)",
-              borderColor: "var(--border-subtle)",
-            }}
-          >
-            <div className="text-xs uppercase tracking-wider mb-1" style={{ color: "#ffffff", opacity: 0.6, fontSize: "0.6rem" }}>
-              Actions Today
-            </div>
-            <div className="text-2xl font-bold" style={{ color: "#ffffff" }}>
-              {actionsToday}
-            </div>
+        {/* Missed heartbeat alert */}
+        {missedWarning && (
+          <div style={{
+            marginTop: "12px", padding: "12px 16px", borderRadius: "8px",
+            background: "rgba(240,91,91,0.1)", border: "1px solid rgba(240,91,91,0.3)",
+            display: "flex", alignItems: "center", gap: "10px",
+          }}>
+            <AlertTriangle size={16} style={{ color: "var(--accent-red)" }} />
+            <span style={{ fontSize: "13px", color: "var(--accent-red)" }}>
+              Last heartbeat was {Math.round(lastHbAge)}m ago — possible missed heartbeat
+            </span>
           </div>
+        )}
+      </div>
+
+      {/* Timeline */}
+      <div style={{ flexShrink: 0, padding: "16px 32px", borderBottom: "1px solid var(--border-subtle)" }}>
+        <div style={{ fontSize: "12px", fontWeight: 600, color: "var(--text-secondary)", marginBottom: "10px" }}>
+          24-Hour Timeline
+        </div>
+        <div style={{ display: "flex", gap: "2px", alignItems: "flex-end", height: "48px" }}>
+          {hours.map((h, i) => (
+            <div
+              key={i}
+              title={`${h.count} heartbeats, ${h.errors} errors`}
+              style={{
+                flex: 1,
+                height: `${Math.max(4, (h.count / maxCount) * 48)}px`,
+                borderRadius: "2px 2px 0 0",
+                background: h.errors > 0 ? "var(--accent-red)" : h.count > 0 ? "var(--accent-green)" : "var(--bg-tertiary)",
+                opacity: h.count > 0 ? 0.8 : 0.3,
+              }}
+            />
+          ))}
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: "10px", color: "var(--text-tertiary)", marginTop: "4px" }}>
+          <span>24h ago</span>
+          <span>12h ago</span>
+          <span>Now</span>
         </div>
       </div>
 
+      {/* Per-Agent Summary */}
+      {Object.keys(agentMap).length > 1 && (
+        <div style={{ flexShrink: 0, padding: "12px 32px", borderBottom: "1px solid var(--border-subtle)" }}>
+          <div style={{ fontSize: "12px", fontWeight: 600, color: "var(--text-secondary)", marginBottom: "8px" }}>
+            Per Agent/Task
+          </div>
+          <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+            {Object.entries(agentMap).map(([name, info]) => (
+              <div key={name} style={{
+                padding: "6px 12px", borderRadius: "8px",
+                background: "var(--bg-secondary)", border: "1px solid var(--border-subtle)",
+                fontSize: "12px",
+              }}>
+                <span style={{ fontWeight: 600, color: "var(--text-primary)" }}>{name}</span>
+                <span style={{ color: "var(--text-tertiary)", marginLeft: "8px" }}>{info.count} beats</span>
+                <span style={{ color: "var(--text-tertiary)", marginLeft: "8px" }}>Last: {relativeTime(info.lastTs)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Filter tabs */}
-      <div
-        className="flex-shrink-0 flex gap-1 px-6 py-3 border-b"
-        style={{ borderColor: "var(--border-subtle)" }}
-      >
+      <div style={{ flexShrink: 0, display: "flex", gap: "4px", padding: "12px 32px", borderBottom: "1px solid var(--border-subtle)" }}>
         {FILTER_TABS.map((tab) => {
           const active = filter === tab.id;
           return (
             <button
               key={tab.id}
               onClick={() => setFilter(tab.id)}
-              className="px-3 py-1.5 rounded-md text-sm font-medium transition-colors"
               style={{
-                background: active ? "var(--accent-purple)" : "var(--bg-elevated)",
-                color: active ? "#ffffff" : "#ffffff",
-                opacity: active ? 1 : 0.6,
-                border: active ? "1px solid transparent" : "1px solid var(--border-subtle)",
+                padding: "6px 14px", borderRadius: "6px", fontSize: "13px", fontWeight: 500,
+                background: active ? "var(--accent-purple)" : "var(--bg-secondary)",
+                color: active ? "white" : "var(--text-secondary)",
+                border: active ? "none" : "1px solid var(--border-subtle)",
+                cursor: "pointer",
               }}
             >
               {tab.label}
@@ -173,77 +262,59 @@ export default function HeartbeatPage() {
       </div>
 
       {/* Entry list */}
-      <div className="flex-1 overflow-y-auto px-6 py-4 fab-scroll-pad">
+      <div style={{ flex: 1, overflowY: "auto", padding: "16px 32px" }} className="fab-scroll-pad">
         {loading ? (
-          <div className="flex items-center justify-center h-32">
-            <p style={{ color: "#ffffff", opacity: 0.5 }}>Loading…</p>
+          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+            {Array.from({ length: 5 }).map((_, i) => (
+              <div key={i} style={{ height: "72px", background: "var(--bg-secondary)", borderRadius: "10px" }} />
+            ))}
           </div>
         ) : filtered.length === 0 ? (
-          <div className="flex flex-col items-center justify-center h-48 text-center">
-            <div className="text-4xl mb-4">💓</div>
-            <p className="text-sm" style={{ color: "#ffffff" }}>
-              No heartbeat activity yet — I&apos;ll log every check here
-            </p>
+          <div style={{ textAlign: "center", padding: "60px 20px" }}>
+            <div style={{ fontSize: "32px", marginBottom: "12px" }}>💓</div>
+            <div style={{ color: "var(--text-secondary)", fontSize: "14px" }}>No heartbeat activity yet</div>
+            <div style={{ color: "var(--text-tertiary)", fontSize: "13px", marginTop: "4px" }}>
+              Heartbeats will appear here as agents check in
+            </div>
           </div>
         ) : (
-          <div className="space-y-2">
+          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             {filtered.map((entry) => {
               const badge = BADGE_STYLE[entry.type] ?? BADGE_STYLE.ok;
               return (
                 <div
                   key={entry.id}
-                  className="flex gap-3 rounded-lg p-4 border"
                   style={{
-                    background: "var(--bg-elevated)",
-                    borderColor: "var(--border-subtle)",
+                    display: "flex", gap: "12px", padding: "14px 16px", borderRadius: "10px",
+                    background: "var(--bg-secondary)", border: "1px solid var(--border-subtle)",
                   }}
                 >
-                  {/* Icon */}
-                  <div className="flex-shrink-0 text-lg leading-none pt-0.5">
-                    {ICONS[entry.type] ?? "✅"}
-                  </div>
-
-                  {/* Content */}
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 mb-1">
-                      {/* Type badge */}
-                      <span
-                        className="px-2 py-0.5 rounded text-xs font-semibold uppercase"
-                        style={{
-                          background: badge.bg,
-                          color: badge.color,
-                          fontSize: "0.6rem",
-                          letterSpacing: "0.05em",
-                        }}
-                      >
+                  <div style={{ fontSize: "18px", flexShrink: 0 }}>{ICONS[entry.type] ?? "✅"}</div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+                      <span style={{
+                        padding: "2px 8px", borderRadius: "4px", fontSize: "10px",
+                        fontWeight: 600, textTransform: "uppercase",
+                        background: badge.bg, color: badge.color,
+                      }}>
                         {entry.type}
                       </span>
-
-                      {/* Relative time */}
-                      <span
-                        className="ml-auto text-xs flex-shrink-0"
-                        style={{ color: "#ffffff", opacity: 0.5, fontSize: "0.7rem" }}
-                      >
+                      {entry.taskName && (
+                        <span style={{ fontSize: "11px", color: "var(--text-tertiary)" }}>
+                          {entry.taskName}
+                        </span>
+                      )}
+                      <span style={{ fontSize: "11px", color: "var(--text-tertiary)", marginLeft: "auto" }}>
                         {relativeTime(entry.timestamp)}
                       </span>
                     </div>
-
-                    {/* Summary */}
-                    <p
-                      className="font-medium leading-snug"
-                      style={{ color: "#ffffff", fontSize: "14px" }}
-                    >
+                    <div style={{ fontSize: "14px", fontWeight: 500, color: "var(--text-primary)" }}>
                       {entry.summary}
-                    </p>
-
-                    {/* Details */}
+                    </div>
                     {entry.details && (
-                      <p
-                        className="mt-1 leading-snug"
-                        style={{ color: "#ffffff", fontSize: "12px", opacity: 0.7 }}
-                      >
+                      <div style={{ fontSize: "12px", color: "var(--text-secondary)", marginTop: "4px" }}>
                         {entry.details}
-                      </p>
+                      </div>
                     )}
                   </div>
                 </div>

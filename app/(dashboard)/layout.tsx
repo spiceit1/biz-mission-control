@@ -20,25 +20,24 @@ import {
   Menu,
   X,
   Settings,
+  Home,
+  BarChart3,
+  Heart,
+  CheckCircle,
 } from "lucide-react";
-import { SidebarChat } from "@/components/SidebarChat";
-import { BizChat } from "@/components/BizChat";
 
 const nav = [
-  { href: "/factory", icon: Cpu, label: "Agent Factory" },
-  { href: "/inbox", icon: Inbox, label: "Agent Inbox" },
-  // Chat removed — Douglas uses Telegram + Discord instead
-  // { href: "/chat", icon: MessageSquare, label: "Chat" },
-  { href: "/heartbeat", icon: Activity, label: "Heartbeat" },
-  { href: "/requests", icon: ClipboardList, label: "Requests" },
+  { href: "/overview", icon: Home, label: "Overview" },
+  { href: "/agents", icon: Cpu, label: "Agents" },
+  { href: "/tasks", icon: ClipboardList, label: "Tasks" },
+  { href: "/activity", icon: Activity, label: "Activity" },
+  { href: "/heartbeat", icon: Heart, label: "Heartbeat" },
   { href: "/cron", icon: Calendar, label: "Cron Jobs" },
-  { href: "/projects", icon: FolderOpen, label: "Projects" },
-  { href: "/notes", icon: FileText, label: "Notes" },
-  { href: "/memory", icon: Brain, label: "Memory Log" },
-  { href: "/rd-team", icon: Users, label: "R&D Team" },
-  ...(process.env.NEXT_PUBLIC_INSTANCE !== 'biz' ? [{ href: "/flips", icon: Ticket, label: "Flip Tracker" }] : []),
+  { href: "/memory", icon: Brain, label: "Memory" },
   { href: "/docs", icon: Files, label: "Documents" },
-  { href: "/team", icon: Users, label: "Team" },
+  { href: "/analytics", icon: BarChart3, label: "Analytics" },
+  { href: "/inbox", icon: Inbox, label: "Inbox" },
+  { href: "/review", icon: CheckCircle, label: "Review Queue" },
 ];
 
 // Setup nav item — shown separately at the bottom, styled differently
@@ -206,7 +205,6 @@ function SidebarContents({
         })()}
       </div>
 
-      {/* Chat panel removed — Douglas uses Telegram + Discord */}
     </>
   );
 }
