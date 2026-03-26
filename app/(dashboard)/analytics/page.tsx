@@ -211,8 +211,10 @@ export default function AnalyticsPage() {
   const [syncing, setSyncing] = useState(false);
   const [syncResult, setSyncResult] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [dateFrom, setDateFrom] = useState("");
-  const [dateTo, setDateTo] = useState("");
+  // Default to today's date
+  const todayStr = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD format
+  const [dateFrom, setDateFrom] = useState(todayStr);
+  const [dateTo, setDateTo] = useState(todayStr);
   const [expandedSessions, setExpandedSessions] = useState<Set<string>>(new Set());
 
   const fetchData = useCallback(async () => {
@@ -247,9 +249,9 @@ export default function AnalyticsPage() {
         setSyncResult(`Error: ${json.error}`);
       } else {
         setSyncResult(
-          `Synced ${json.totalRecords} records from ${json.newSessions} new sessions (${json.skippedSessions} already synced)`
+          `${json.totalRecords.toLocaleString()} records from ${json.totalSessions} sessions synced. Last sync: ${json.lastSyncAt ? new Date(json.lastSyncAt).toLocaleString() : "never"}. To pull new data, ask Paul to run the sync script.`
         );
-        // Refresh data after sync
+        // Refresh data
         await fetchData();
       }
     } catch (e) {
@@ -316,6 +318,31 @@ export default function AnalyticsPage() {
         </div>
 
         <div style={{ display: "flex", gap: "8px", alignItems: "center", flexWrap: "wrap" }}>
+          {/* Quick date presets */}
+          {[
+            { label: "Today", from: todayStr, to: todayStr },
+            { label: "7d", from: new Date(Date.now() - 7 * 86400000).toLocaleDateString("en-CA"), to: todayStr },
+            { label: "30d", from: new Date(Date.now() - 30 * 86400000).toLocaleDateString("en-CA"), to: todayStr },
+            { label: "All", from: "", to: "" },
+          ].map((preset) => (
+            <button
+              key={preset.label}
+              onClick={() => { setDateFrom(preset.from); setDateTo(preset.to); }}
+              style={{
+                padding: "6px 12px",
+                borderRadius: "6px",
+                border: "1px solid var(--border-subtle)",
+                background: dateFrom === preset.from && dateTo === preset.to ? "var(--accent-purple)" : "var(--bg-secondary)",
+                color: dateFrom === preset.from && dateTo === preset.to ? "white" : "var(--text-secondary)",
+                cursor: "pointer",
+                fontSize: "12px",
+                fontWeight: 600,
+              }}
+            >
+              {preset.label}
+            </button>
+          ))}
+
           {/* Date range picker */}
           <input
             type="date"
