@@ -12,9 +12,9 @@ export async function GET() {
       sql`SELECT data FROM mc_team WHERE id = 'config' LIMIT 1`,
       sql`SELECT * FROM mc_scanner WHERE id = 'config' LIMIT 1`,
       sql`SELECT * FROM mc_factory_agents
-          WHERE status IN ('active', 'running')
-            OR (status = 'completed' AND updated_at > NOW() - interval '30 minutes')
-            OR (status = 'failed' AND updated_at > NOW() - interval '30 minutes')
+          WHERE status IN ('active', 'running', 'standby', 'idle')
+            OR (status = 'completed' AND updated_at > NOW() - interval '24 hours')
+            OR (status = 'failed' AND updated_at > NOW() - interval '24 hours')
           ORDER BY created_at DESC`,
       sql`SELECT * FROM mc_agent_status`,
     ]);
@@ -84,29 +84,50 @@ export async function GET() {
       startedAt: r.started_at || r.created_at,
       completedAt: r.completed_at || (r.status === 'completed' ? r.updated_at : null),
       updatedAt: r.updated_at,
+      characterConfig: r.character_config || {},
     }));
 
     // Compute stats
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    const completedToday = tasks.filter((t) => {
+    const completedTasksToday = tasks.filter((t) => {
       if (t.status !== "done") return false;
       const date = new Date(t.updatedAt || t.createdAt || "");
       return date >= today;
     }).length;
 
+    const completedAgentsToday = liveAgents.filter((a: Record<string, unknown>) => {
+      if (a.status !== "completed") return false;
+      const date = new Date((a.updatedAt || a.createdAt || "") as string);
+      return date >= today;
+    }).length;
+
+    const completedToday = completedTasksToday + completedAgentsToday;
+
     const activeTasks = tasks.filter(
       (t) => t.status === "in-progress" || t.status === "in-review"
     ).length;
 
-    const activeAgents = agents.filter(
-      (a: Record<string, unknown>) => a.status === "active" || a.status === "idle"
+    // Count all visible agents: factory agents + team dedicated agents (standby/scheduled)
+    const teamDedicated = agents.filter(
+      (a: Record<string, unknown>) => a.status === "standby" || a.status === "scheduled"
     ).length;
 
-    const activeLiveAgents = liveAgents.filter(
+    const allActive = liveAgents.filter(
       (a: Record<string, unknown>) => a.status === "active"
     ).length;
+
+    const allIdle = liveAgents.filter(
+      (a: Record<string, unknown>) => a.status === "idle"
+    ).length;
+
+    const allCompleted = liveAgents.filter(
+      (a: Record<string, unknown>) => a.status === "completed"
+    ).length;
+
+    // Total = all factory agents (active + idle + completed) + team dedicated (standby + scheduled)
+    const totalVisible = allActive + allIdle + allCompleted + teamDedicated;
 
     return NextResponse.json({
       tasks,
@@ -116,9 +137,9 @@ export async function GET() {
       stats: {
         activeTasks,
         completedToday,
-        activeAgents: activeAgents + activeLiveAgents,
-        totalAgents: agents.length,
-        liveAgentCount: activeLiveAgents,
+        activeAgents: allActive,
+        totalAgents: totalVisible,
+        liveAgentCount: allActive,
       },
     });
   } catch (e) {

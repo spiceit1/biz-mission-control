@@ -36,8 +36,7 @@ const nav = [
   { href: "/notes", icon: FileText, label: "Notes" },
   { href: "/memory", icon: Brain, label: "Memory Log" },
   { href: "/rd-team", icon: Users, label: "R&D Team" },
-  // Personal features (not in base template):
-  // Flip Tracker: { href: "/flips", icon: Ticket, label: "Flip Tracker" }
+  ...(process.env.NEXT_PUBLIC_INSTANCE !== 'biz' ? [{ href: "/flips", icon: Ticket, label: "Flip Tracker" }] : []),
   { href: "/docs", icon: Files, label: "Documents" },
   { href: "/team", icon: Users, label: "Team" },
 ];
@@ -307,7 +306,7 @@ export default function DashboardLayout({
         </aside>
 
         {/* ── Main area ────────────────────────────────────────────── */}
-        <div style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minWidth: 0 }}>
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "auto", minWidth: 0 }}>
 
           {/* Mobile top bar — hidden on /chat page since chat has its own header with agent selector */}
           <div
@@ -366,7 +365,7 @@ export default function DashboardLayout({
           </div>
 
           {/* Page content */}
-          <main style={{ flex: 1, overflow: "hidden" }}>
+          <main style={{ flex: 1, overflow: "auto" }}>
             {children}
           </main>
         </div>
