@@ -27,6 +27,8 @@ const TABLE_NAMES = [
   "mc_live_agents",
   "mc_agent_status",
   "mc_ticket_watch",
+  "mc_token_usage",
+  "mc_reviews",
 ];
 
 const MIGRATIONS: string[] = [
@@ -304,6 +306,39 @@ const MIGRATIONS: string[] = [
     created_at TIMESTAMPTZ DEFAULT now(),
     updated_at TIMESTAMPTZ DEFAULT now()
   )`,
+  // mc_token_usage — token and cost tracking per API call
+  `CREATE TABLE IF NOT EXISTS mc_token_usage (
+    id SERIAL PRIMARY KEY,
+    session_id TEXT,
+    session_type TEXT DEFAULT 'session',
+    agent_id TEXT DEFAULT 'paul',
+    model TEXT,
+    input_tokens INTEGER DEFAULT 0,
+    output_tokens INTEGER DEFAULT 0,
+    cache_read_tokens INTEGER DEFAULT 0,
+    cache_write_tokens INTEGER DEFAULT 0,
+    total_tokens INTEGER DEFAULT 0,
+    cost_input NUMERIC DEFAULT 0,
+    cost_output NUMERIC DEFAULT 0,
+    cost_cache_read NUMERIC DEFAULT 0,
+    cost_cache_write NUMERIC DEFAULT 0,
+    cost_total NUMERIC DEFAULT 0,
+    created_at TIMESTAMPTZ DEFAULT now()
+  )`,
+  // mc_reviews — review queue items
+  `CREATE TABLE IF NOT EXISTS mc_reviews (
+    id SERIAL PRIMARY KEY,
+    type TEXT NOT NULL,
+    source_id TEXT,
+    agent_id TEXT,
+    title TEXT,
+    summary TEXT,
+    reason TEXT,
+    status TEXT DEFAULT 'pending',
+    reviewer_notes TEXT,
+    reviewed_at TIMESTAMPTZ,
+    created_at TIMESTAMPTZ DEFAULT now()
+  )`,
   // v2 migrations: add columns to mc_tasks
   `ALTER TABLE mc_tasks ADD COLUMN IF NOT EXISTS agent_id TEXT`,
   `ALTER TABLE mc_tasks ADD COLUMN IF NOT EXISTS review_notes TEXT`,
@@ -318,6 +353,16 @@ const MIGRATIONS: string[] = [
       ALTER TABLE mc_activity ADD COLUMN IF NOT EXISTS metadata JSONB;
     END IF;
   END $$`,
+  // v2: factory_agents enhancements
+  `ALTER TABLE mc_factory_agents ADD COLUMN IF NOT EXISTS parent_agent_id TEXT`,
+  `ALTER TABLE mc_factory_agents ADD COLUMN IF NOT EXISTS last_heartbeat_at TIMESTAMPTZ`,
+  // v2: heartbeat per-agent tracking
+  `ALTER TABLE mc_heartbeat ADD COLUMN IF NOT EXISTS agent_id TEXT`,
+  // v2: docs agent tracking
+  `ALTER TABLE mc_docs ADD COLUMN IF NOT EXISTS agent_id TEXT`,
+  // v2: memory change tracking
+  `ALTER TABLE mc_memory_files ADD COLUMN IF NOT EXISTS changed_by TEXT`,
+  `ALTER TABLE mc_memory_files ADD COLUMN IF NOT EXISTS previous_content TEXT`,
 ];
 
 export async function POST() {
