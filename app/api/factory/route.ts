@@ -12,7 +12,7 @@ export async function GET() {
       sql`SELECT data FROM mc_team WHERE id = 'config' LIMIT 1`,
       sql`SELECT * FROM mc_scanner WHERE id = 'config' LIMIT 1`,
       sql`SELECT * FROM mc_factory_agents
-          WHERE status IN ('active', 'running', 'standby', 'idle')
+          WHERE status IN ('active', 'running', 'standby', 'idle', 'scheduled')
             OR (status = 'completed' AND updated_at > NOW() - interval '24 hours')
             OR (status = 'failed' AND updated_at > NOW() - interval '24 hours')
           ORDER BY created_at DESC`,
