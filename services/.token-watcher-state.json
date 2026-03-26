@@ -1,0 +1,2546 @@
+{
+  "files": {
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0033986e-9947-4ec7-bc70-ed430ea19da1.jsonl.deleted.2026-03-26T18-24-13.693Z": {
+      "offset": 5785,
+      "size": 5785,
+      "mtime": 1774462996737.2544,
+      "inode": 1163362,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/008b6d22-0c93-4efc-bfec-3c81e7cbb901.jsonl.deleted.2026-03-26T16-24-12.221Z": {
+      "offset": 5940,
+      "size": 5940,
+      "mtime": 1774455797037.7034,
+      "inode": 1161276,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/00d50ca4-e1a0-4c77-a3b4-e1827058aeb2.jsonl": {
+      "offset": 221603,
+      "size": 221603,
+      "mtime": 1774564947042.0786,
+      "inode": 1193454,
+      "recordCount": 69
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/00da9e8a-dfc1-4483-ae9b-5cbea15f6596.jsonl.deleted.2026-03-26T18-04-13.464Z": {
+      "offset": 6080,
+      "size": 6080,
+      "mtime": 1774461804649.083,
+      "inode": 1163067,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0116ba9e-cf4c-4028-937c-5da125a9c62b.jsonl": {
+      "offset": 6920,
+      "size": 6920,
+      "mtime": 1774563526074.291,
+      "inode": 1322596,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/01225631-e4e9-48ab-b720-cd9aff4a9173.jsonl": {
+      "offset": 5220,
+      "size": 5220,
+      "mtime": 1774497909692.2942,
+      "inode": 1178190,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/019046df-c9bb-4b8b-9142-39347ab62c2c.jsonl.deleted.2026-03-26T17-34-13.103Z": {
+      "offset": 6342,
+      "size": 6342,
+      "mtime": 1774459998291.7637,
+      "inode": 1162503,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/02c31541-a3d7-4657-b98e-fab3e5181d7e.jsonl.deleted.2026-03-26T22-53-46.105Z": {
+      "offset": 5713,
+      "size": 5713,
+      "mtime": 1774478902474.5393,
+      "inode": 1170142,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/046aee37-5b85-4a92-98f8-cf1baf2eb83b.jsonl.deleted.2026-03-26T18-29-13.748Z": {
+      "offset": 6051,
+      "size": 6051,
+      "mtime": 1774463298005.8784,
+      "inode": 1163443,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/04eb8021-912c-4a6a-9650-b7c2c301b367.jsonl.deleted.2026-03-26T11-33-18.924Z": {
+      "offset": 6034,
+      "size": 6034,
+      "mtime": 1774438397481.4165,
+      "inode": 1146414,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/068684cc-161d-4479-92cd-e2251f6ee264.jsonl.deleted.2026-03-26T08-58-16.670Z": {
+      "offset": 6002,
+      "size": 6002,
+      "mtime": 1774429105351.4644,
+      "inode": 1143776,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/06c02f0b-b5cc-4eed-b942-c4f66a7507e9.jsonl": {
+      "offset": 7163,
+      "size": 7163,
+      "mtime": 1774562086125.2664,
+      "inode": 1322023,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/07757ca0-6889-468a-9254-6a8458a3af93.jsonl": {
+      "offset": 7382,
+      "size": 7382,
+      "mtime": 1774564606471.1829,
+      "inode": 1322924,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/080da4b4-969f-4da6-a82f-d004c28d851e.jsonl.deleted.2026-03-26T11-18-18.711Z": {
+      "offset": 5640,
+      "size": 5640,
+      "mtime": 1774437497364.3325,
+      "inode": 1146205,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/085ad9a1-8880-4fbc-bc83-373894d8760d.jsonl.deleted.2026-03-26T22-05-47.808Z": {
+      "offset": 5581,
+      "size": 5581,
+      "mtime": 1774476197375.5427,
+      "inode": 1169266,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/098bef5e-7bb4-4ce5-98a5-ef20f396566e.jsonl.deleted.2026-03-26T19-36-44.425Z": {
+      "offset": 5875,
+      "size": 5875,
+      "mtime": 1774467197248.7756,
+      "inode": 1166312,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0991d9b8-4587-4298-bd17-3330d36c21ae.jsonl": {
+      "offset": 7000,
+      "size": 7000,
+      "mtime": 1774557618450.649,
+      "inode": 1209454,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/09fdde63-73e8-4427-acff-eaf918f994e7.jsonl": {
+      "offset": 949641,
+      "size": 949641,
+      "mtime": 1774384327825.541,
+      "inode": 1060940,
+      "recordCount": 22
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0a039fea-0aba-4a39-9dd1-11a1e3fb4d0a.jsonl.deleted.2026-03-26T05-18-11.064Z": {
+      "offset": 5721,
+      "size": 5721,
+      "mtime": 1774415596978.467,
+      "inode": 1128367,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0a32db2c-f73e-4130-98a1-c49e268cc44b.jsonl.deleted.2026-03-26T18-39-13.868Z": {
+      "offset": 5939,
+      "size": 5939,
+      "mtime": 1774463896917.9885,
+      "inode": 1163655,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0b12696c-cc4c-43ed-9be4-7eb3df95551c.jsonl": {
+      "offset": 7400,
+      "size": 7400,
+      "mtime": 1774558100704.3264,
+      "inode": 1209797,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0cc201a6-5831-4ae8-b14a-1dfd6b7e504f.jsonl": {
+      "offset": 137225,
+      "size": 137225,
+      "mtime": 1774491159702.537,
+      "inode": 1174481,
+      "recordCount": 20
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0d5eda68-cd54-4c4f-bce4-98e2a7fd4d55.jsonl": {
+      "offset": 7102,
+      "size": 7102,
+      "mtime": 1774563885658.6199,
+      "inode": 1322694,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0dcbc08d-9d21-439f-be3f-e6e5b5feff4b.jsonl.deleted.2026-03-26T21-32-48.967Z": {
+      "offset": 6459,
+      "size": 6459,
+      "mtime": 1774474100203.844,
+      "inode": 1168039,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0e18ec49-39c4-45b6-8090-40c2e5f4ee74.jsonl": {
+      "offset": 7075,
+      "size": 7075,
+      "mtime": 1774567367798.856,
+      "inode": 1326649,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/0e5e47ff-8e9e-4d16-8d50-01c164482441.jsonl.deleted.2026-03-26T05-03-10.814Z": {
+      "offset": 6130,
+      "size": 6130,
+      "mtime": 1774414697697.221,
+      "inode": 1128133,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/10264433-d83e-4948-a277-6b288269fb18.jsonl.deleted.2026-03-26T06-33-14.386Z": {
+      "offset": 6064,
+      "size": 6064,
+      "mtime": 1774420398134.6719,
+      "inode": 1135071,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/10ce574b-2049-468d-8bbb-e3476600cc83.jsonl.deleted.2026-03-26T10-53-18.354Z": {
+      "offset": 5920,
+      "size": 5920,
+      "mtime": 1774435997878.6719,
+      "inode": 1145813,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1126a29a-6db4-4363-8750-79319b456e36.jsonl.deleted.2026-03-26T01-47-55.743Z": {
+      "offset": 6009,
+      "size": 6009,
+      "mtime": 1774402998011.624,
+      "inode": 1122847,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/13f3159d-0d7f-4ac3-8114-8a6a8674a261.jsonl": {
+      "offset": 7372,
+      "size": 7372,
+      "mtime": 1774560167367.2642,
+      "inode": 1228997,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/14c72ed2-96f8-48e4-9a99-21ed13ce0962.jsonl.deleted.2026-03-26T07-38-15.428Z": {
+      "offset": 5954,
+      "size": 5954,
+      "mtime": 1774424297848.6687,
+      "inode": 1142313,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1532dea2-3084-43bc-b561-49d458f76448.jsonl.deleted.2026-03-26T07-28-15.275Z": {
+      "offset": 5934,
+      "size": 5934,
+      "mtime": 1774423698690.8003,
+      "inode": 1142209,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/153d89fb-274a-4771-a516-54d5e9f74e82.jsonl.deleted.2026-03-26T08-18-16.066Z": {
+      "offset": 5870,
+      "size": 5870,
+      "mtime": 1774426699175.4453,
+      "inode": 1142931,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/155a06f8-1fb3-45ef-90d4-81130294f0a4.jsonl.deleted.2026-03-26T17-19-12.923Z": {
+      "offset": 6332,
+      "size": 6332,
+      "mtime": 1774459097408.727,
+      "inode": 1162293,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1603af77-8bef-492c-a37b-627fcca9fb40.jsonl.deleted.2026-03-26T16-54-12.608Z": {
+      "offset": 6244,
+      "size": 6244,
+      "mtime": 1774457597099.931,
+      "inode": 1161919,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/164823fd-d3a8-4588-a8a8-8d5b41f5dbf0.jsonl.deleted.2026-03-26T08-38-16.371Z": {
+      "offset": 6109,
+      "size": 6109,
+      "mtime": 1774427903958.2764,
+      "inode": 1143194,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/16b60de1-7634-4865-bb23-18b51c1d8767.jsonl.deleted.2026-03-26T22-22-45.825Z": {
+      "offset": 5773,
+      "size": 5773,
+      "mtime": 1774477099070.3987,
+      "inode": 1169602,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/16db8832-62d8-4743-a994-dd277a8bb371.jsonl.deleted.2026-03-26T19-31-44.367Z": {
+      "offset": 5922,
+      "size": 5922,
+      "mtime": 1774466898051.486,
+      "inode": 1166249,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/17331e2a-ec67-4463-b83b-32cc1466ed80.jsonl": {
+      "offset": 7412,
+      "size": 7412,
+      "mtime": 1774557980613.42,
+      "inode": 1209763,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/17788ee4-b7d7-4e46-83d1-dd8cfec74bce.jsonl.deleted.2026-03-26T03-02-57.120Z": {
+      "offset": 5690,
+      "size": 5690,
+      "mtime": 1774407496790.3335,
+      "inode": 1126134,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/17f1724f-d13c-4af4-8d72-f05dcd086438.jsonl.deleted.2026-03-26T15-23-21.499Z": {
+      "offset": 6006,
+      "size": 6006,
+      "mtime": 1774452197322.9639,
+      "inode": 1158069,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1831b057-dee2-4b99-b45f-76faaf5ad0d4.jsonl.deleted.2026-03-26T17-14-12.856Z": {
+      "offset": 6065,
+      "size": 6065,
+      "mtime": 1774458797134.502,
+      "inode": 1162204,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/18bac0ff-7239-424d-ae28-8c9513d4471d.jsonl": {
+      "offset": 7053,
+      "size": 7053,
+      "mtime": 1774558338385.4497,
+      "inode": 1209866,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/192a05f4-5f38-432c-b7ac-e5b409683abf.jsonl.deleted.2026-03-26T00-57-54.810Z": {
+      "offset": 5619,
+      "size": 5619,
+      "mtime": 1774399997831.8162,
+      "inode": 1115435,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/19f7b328-717d-4c89-91f0-c488d34b61de.jsonl": {
+      "offset": 6818,
+      "size": 6818,
+      "mtime": 1774562926742.395,
+      "inode": 1322320,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1b16bb35-67fd-424d-b3db-07a6c4009b35.jsonl": {
+      "offset": 7343,
+      "size": 7343,
+      "mtime": 1774557738965.6565,
+      "inode": 1209517,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1c09b482-0e41-4217-99ba-e79bc8c71bc5.jsonl.deleted.2026-03-26T18-49-13.975Z": {
+      "offset": 6171,
+      "size": 6171,
+      "mtime": 1774464497858.7175,
+      "inode": 1163825,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1c4db46a-4bff-4802-9ab5-a033cbd25a67.jsonl": {
+      "offset": 4086,
+      "size": 4086,
+      "mtime": 1774504813749.6433,
+      "inode": 1184678,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1d1dd72b-57ea-4dc1-aa36-589d34c24220.jsonl.deleted.2026-03-26T02-32-56.555Z": {
+      "offset": 5705,
+      "size": 5705,
+      "mtime": 1774405697355.678,
+      "inode": 1125460,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1d83be1a-186a-4b88-8ece-25f03d3229b6.jsonl.deleted.2026-03-26T02-37-56.648Z": {
+      "offset": 5947,
+      "size": 5947,
+      "mtime": 1774405997652.8022,
+      "inode": 1125518,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1e556574-ab9e-4400-b173-2618234e9ad9.jsonl.deleted.2026-03-26T09-43-17.332Z": {
+      "offset": 5977,
+      "size": 5977,
+      "mtime": 1774431797389.2673,
+      "inode": 1144405,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1e55aa3f-81dd-4357-a3de-dba1a4f8fc68.jsonl.deleted.2026-03-26T01-57-55.924Z": {
+      "offset": 6324,
+      "size": 6324,
+      "mtime": 1774403603650.2039,
+      "inode": 1123060,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/1fb89f84-b074-4881-a286-73a23e25e647.jsonl": {
+      "offset": 7654,
+      "size": 7654,
+      "mtime": 1774556661123.5378,
+      "inode": 1208989,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/20a5a8eb-faf3-4003-84d5-6919889bbe3a.jsonl.deleted.2026-03-26T06-03-13.909Z": {
+      "offset": 5697,
+      "size": 5697,
+      "mtime": 1774418597783.0378,
+      "inode": 1134030,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/20f84f5f-ef9f-4b86-87fa-3cc20e4c1da3.jsonl.deleted.2026-03-26T07-43-15.512Z": {
+      "offset": 5847,
+      "size": 5847,
+      "mtime": 1774424597745.3403,
+      "inode": 1142413,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/22984842-0dd3-46fb-8293-3cabe316bb76.jsonl": {
+      "offset": 560573,
+      "size": 560573,
+      "mtime": 1774569340580.6685,
+      "inode": 1228935,
+      "recordCount": 96
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/22984842-0dd3-46fb-8293-3cabe316bb76.jsonl.lock": {
+      "offset": 59,
+      "size": 59,
+      "mtime": 1774569180139.3118,
+      "inode": 1329838,
+      "recordCount": 0
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/23467e44-ac3a-4a19-a75a-770daee259f7.jsonl.deleted.2026-03-26T03-57-58.091Z": {
+      "offset": 6083,
+      "size": 6083,
+      "mtime": 1774410799193.3818,
+      "inode": 1126987,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/24e0c2a7-0309-4a4e-b9df-d579ec0d2265.jsonl.deleted.2026-03-26T21-00-23.110Z": {
+      "offset": 5763,
+      "size": 5763,
+      "mtime": 1774472298392.9087,
+      "inode": 1167570,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/2590777c-23f7-4108-af41-a3383cb69dca.jsonl.deleted.2026-03-26T15-18-21.426Z": {
+      "offset": 5650,
+      "size": 5650,
+      "mtime": 1774451897424.7097,
+      "inode": 1157920,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/26c02962-c8bb-4273-b3a1-37005a624853.jsonl.reset.2026-03-24T15-52-41.802Z": {
+      "offset": 38937,
+      "size": 38937,
+      "mtime": 1773866683036.28,
+      "inode": 743416,
+      "recordCount": 8
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/26d13e99-2f3d-4b51-b5e9-8d9222dcfce5.jsonl.deleted.2026-03-26T22-32-46.523Z": {
+      "offset": 5948,
+      "size": 5948,
+      "mtime": 1774477697405.3499,
+      "inode": 1169732,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/29915531-5529-4801-98f3-bbd9e1bee4c9.jsonl": {
+      "offset": 6946,
+      "size": 6946,
+      "mtime": 1774567966276.1406,
+      "inode": 1326805,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/2bb7257e-159f-4b1b-86d8-7665ed56b48c.jsonl.deleted.2026-03-26T02-17-56.298Z": {
+      "offset": 5805,
+      "size": 5805,
+      "mtime": 1774404797314.3047,
+      "inode": 1124964,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/30cb7597-9170-4fff-b355-4f0d577d7de4.jsonl.reset.2026-03-19T12-58-11.474Z": {
+      "offset": 93153,
+      "size": 93153,
+      "mtime": 1773868445963.9216,
+      "inode": 744065,
+      "recordCount": 30
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/32896422-f6ca-418f-93a8-db590e8cd2ef.jsonl.deleted.2026-03-26T10-08-17.690Z": {
+      "offset": 5923,
+      "size": 5923,
+      "mtime": 1774433301117.8022,
+      "inode": 1144779,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/32d2d123-b63c-484e-b21d-3a395284f357.jsonl.deleted.2026-03-26T16-39-12.417Z": {
+      "offset": 5938,
+      "size": 5938,
+      "mtime": 1774456698594.402,
+      "inode": 1161689,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/345816c9-77d8-4a8a-a82b-1893aeed26c4.jsonl": {
+      "offset": 7166,
+      "size": 7166,
+      "mtime": 1774568326227.9329,
+      "inode": 1329504,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/345e7ce8-73e8-46df-b839-34d2d4d1a2eb.jsonl": {
+      "offset": 7590,
+      "size": 7590,
+      "mtime": 1774566048678.4019,
+      "inode": 1323377,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/350ab0f9-2429-4a24-a1c6-a3c9406905a3.jsonl.deleted.2026-03-26T02-57-57.025Z": {
+      "offset": 5801,
+      "size": 5801,
+      "mtime": 1774407196965.8672,
+      "inode": 1126072,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/35568394-245c-4eeb-83b7-6ae337d17c95.jsonl.deleted.2026-03-26T09-23-17.039Z": {
+      "offset": 5656,
+      "size": 5656,
+      "mtime": 1774430597990.5364,
+      "inode": 1144140,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/35bc26de-18c8-4995-a03b-00a6e687c841.jsonl": {
+      "offset": 7636,
+      "size": 7636,
+      "mtime": 1774558218866.6655,
+      "inode": 1209835,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/35cc449e-ad84-41d7-8900-c8de7b82ea4e.jsonl.deleted.2026-03-26T19-21-44.264Z": {
+      "offset": 5958,
+      "size": 5958,
+      "mtime": 1774466298600.8496,
+      "inode": 1165948,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/36bcd4ce-1fa6-4246-a87a-cdb2372e8ce6.jsonl.deleted.2026-03-26T05-43-11.475Z": {
+      "offset": 5621,
+      "size": 5621,
+      "mtime": 1774417099111.4978,
+      "inode": 1128762,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/36d7423a-8b3f-40fb-a99a-cb822cd9543e.jsonl.deleted.2026-03-26T06-43-14.543Z": {
+      "offset": 5958,
+      "size": 5958,
+      "mtime": 1774420999308.9094,
+      "inode": 1135191,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/3752e420-f088-4118-bddc-76651c2a48cb.jsonl.reset.2026-03-25T21-59-32.714Z": {
+      "offset": 419738,
+      "size": 419738,
+      "mtime": 1774475952536.5125,
+      "inode": 1123129,
+      "recordCount": 113
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/37d8981f-3678-4851-81c2-c1014e8befba.jsonl": {
+      "offset": 6903,
+      "size": 6903,
+      "mtime": 1774558579362.723,
+      "inode": 1209933,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/388fd7ce-417c-4c62-80cb-5d9be506d7c0.jsonl": {
+      "offset": 7064,
+      "size": 7064,
+      "mtime": 1774560886078.9072,
+      "inode": 1230713,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/38f4aa81-3a2d-4f0c-92a9-e8205aefde9c.jsonl.deleted.2026-03-26T03-32-57.657Z": {
+      "offset": 5858,
+      "size": 5858,
+      "mtime": 1774409298487.4543,
+      "inode": 1126650,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/391ca729-d0dd-446f-b473-41fbf8103b34.jsonl": {
+      "offset": 7301,
+      "size": 7301,
+      "mtime": 1774558942022.9805,
+      "inode": 1210134,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/397181f4-15c0-452b-afc6-2bfd3eccb116.jsonl.deleted.2026-03-26T07-53-15.673Z": {
+      "offset": 6056,
+      "size": 6056,
+      "mtime": 1774425198275.4282,
+      "inode": 1142553,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/3c4b728e-99f3-45c2-9db7-de869a14593a.jsonl.deleted.2026-03-26T22-11-46.417Z": {
+      "offset": 6104,
+      "size": 6104,
+      "mtime": 1774476504356.0444,
+      "inode": 1169317,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/3e70d480-8366-4996-ae0d-6f60dac56adb.jsonl.deleted.2026-03-26T04-48-10.551Z": {
+      "offset": 6068,
+      "size": 6068,
+      "mtime": 1774413797779.9941,
+      "inode": 1127868,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/40565dcd-a293-4049-9183-d57daa18ee1f.jsonl.deleted.2026-03-26T07-48-15.595Z": {
+      "offset": 6058,
+      "size": 6058,
+      "mtime": 1774424898601.0322,
+      "inode": 1142488,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/40975e36-8859-444d-8c49-f87e0746a3bc.jsonl.deleted.2026-03-26T22-42-46.762Z": {
+      "offset": 6083,
+      "size": 6083,
+      "mtime": 1774478298522.9458,
+      "inode": 1169920,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/4145ba0d-2b1c-4a8e-9dea-d2cd3a72c7b3.jsonl.deleted.2026-03-26T19-14-14.227Z": {
+      "offset": 6189,
+      "size": 6189,
+      "mtime": 1774466000224.5535,
+      "inode": 1164390,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/41aa5e64-5813-44f0-be63-2a886e782b6b.jsonl": {
+      "offset": 2762,
+      "size": 2762,
+      "mtime": 1774540433755.5537,
+      "inode": 1201139,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/439a6842-d58b-42f8-abfc-f18dbe67194d.jsonl": {
+      "offset": 7561,
+      "size": 7561,
+      "mtime": 1774564366446.688,
+      "inode": 1322817,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/43a538c8-d6c0-4410-b891-44c62b7487e9.jsonl.deleted.2026-03-26T08-28-16.217Z": {
+      "offset": 6036,
+      "size": 6036,
+      "mtime": 1774427297570.8542,
+      "inode": 1143077,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/43e44dfd-e4d0-46cb-8d16-b9ed584f1f88.jsonl": {
+      "offset": 6953,
+      "size": 6953,
+      "mtime": 1774559332190.3064,
+      "inode": 1226432,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/45a1c5e1-6a2c-48c0-9672-f7683a959e6f.jsonl.reset.2026-03-26T21-20-21.686Z": {
+      "offset": 102405,
+      "size": 102405,
+      "mtime": 1774559392526.7864,
+      "inode": 1208907,
+      "recordCount": 26
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/45ffc95a-ca4b-4b85-96ac-23dd709946f5.jsonl.deleted.2026-03-26T06-58-14.791Z": {
+      "offset": 5906,
+      "size": 5906,
+      "mtime": 1774421898037.0195,
+      "inode": 1135429,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/46a3a379-75fd-4817-87b6-6fdf9a5948de.jsonl.deleted.2026-03-26T21-09-52.273Z": {
+      "offset": 6162,
+      "size": 6162,
+      "mtime": 1774472599603.4033,
+      "inode": 1167635,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/46be3af3-ff88-41bf-8408-8ce123e34714.jsonl": {
+      "offset": 7322,
+      "size": 7322,
+      "mtime": 1774559570351.7363,
+      "inode": 1228024,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/46c95eb5-0a68-4a61-93ae-9a1aacaf675e.jsonl.deleted.2026-03-26T02-52-56.928Z": {
+      "offset": 5952,
+      "size": 5952,
+      "mtime": 1774406897584.906,
+      "inode": 1125773,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/47b7259d-b244-4090-984a-d3c1cff76b9c.jsonl.deleted.2026-03-26T06-53-14.708Z": {
+      "offset": 5791,
+      "size": 5791,
+      "mtime": 1774421597423.31,
+      "inode": 1135370,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/4882e188-e285-461e-bd78-e46403ed2919.jsonl.deleted.2026-03-26T16-34-12.352Z": {
+      "offset": 5890,
+      "size": 5890,
+      "mtime": 1774456396764.5908,
+      "inode": 1161644,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/49575ca4-1063-489b-99e5-9fce6e5c3b8a.jsonl.deleted.2026-03-26T06-13-14.070Z": {
+      "offset": 5870,
+      "size": 5870,
+      "mtime": 1774419197248.52,
+      "inode": 1134198,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/4b70f032-eaf8-441c-8fa1-34fefd1a2bb5.jsonl": {
+      "offset": 7389,
+      "size": 7389,
+      "mtime": 1774563407389.1528,
+      "inode": 1322537,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/4d2e3925-204d-4631-9865-efffe99726e4.jsonl": {
+      "offset": 406536,
+      "size": 406536,
+      "mtime": 1774382908629.547,
+      "inode": 1054332,
+      "recordCount": 65
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/4e214096-8bcb-423a-a662-630480d05714.jsonl": {
+      "offset": 6989,
+      "size": 6989,
+      "mtime": 1774566887560.9626,
+      "inode": 1326422,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/4fd35255-6510-47f4-96a9-22e8c6b1f2cb.jsonl.deleted.2026-03-26T10-38-18.135Z": {
+      "offset": 5921,
+      "size": 5921,
+      "mtime": 1774435097996.2593,
+      "inode": 1145381,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/500c3568-6391-4de1-a853-5af7ac3ec6a6.jsonl": {
+      "offset": 6908,
+      "size": 6908,
+      "mtime": 1774561487864.5374,
+      "inode": 1321746,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/500eb90e-fa71-4904-bab3-3ac81d57446c.jsonl.deleted.2026-03-26T10-13-17.762Z": {
+      "offset": 5584,
+      "size": 5584,
+      "mtime": 1774433598434.6633,
+      "inode": 1144886,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/50a957c1-4406-47ca-be97-0572d8d05388.jsonl": {
+      "offset": 7589,
+      "size": 7589,
+      "mtime": 1774561366688.373,
+      "inode": 1320099,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/514512f5-4088-4534-a357-f25144514365.jsonl.deleted.2026-03-26T04-28-10.205Z": {
+      "offset": 5837,
+      "size": 5837,
+      "mtime": 1774412597292.4053,
+      "inode": 1127545,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5208780e-d1b8-4a7e-88bf-f3a9188bef97.jsonl.deleted.2026-03-26T11-08-18.568Z": {
+      "offset": 6064,
+      "size": 6064,
+      "mtime": 1774436898400.851,
+      "inode": 1146018,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/52b0d682-4926-45d8-ac7e-9c983c716260.jsonl": {
+      "offset": 7169,
+      "size": 7169,
+      "mtime": 1774557857104.6597,
+      "inode": 1209669,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/53d7c495-97ab-493d-a655-01dab33a2261.jsonl.deleted.2026-03-26T02-47-56.834Z": {
+      "offset": 6587,
+      "size": 6587,
+      "mtime": 1774406603100.945,
+      "inode": 1125642,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/553fb005-93f4-4c82-a734-0b9f9131366d.jsonl.deleted.2026-03-26T08-33-16.295Z": {
+      "offset": 5865,
+      "size": 5865,
+      "mtime": 1774427598222.0574,
+      "inode": 1143131,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/573f8816-d49c-4a1d-ac52-5e7a9aafbec5.jsonl.deleted.2026-03-26T01-12-55.089Z": {
+      "offset": 6176,
+      "size": 6176,
+      "mtime": 1774400898266.278,
+      "inode": 1122177,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/58bb6904-844d-4087-85bf-d83550703ad4.jsonl.deleted.2026-03-26T15-59-11.897Z": {
+      "offset": 15476,
+      "size": 15476,
+      "mtime": 1774454320718.8213,
+      "inode": 1160971,
+      "recordCount": 4
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/58ec6388-9c3b-4986-85ed-bbbf5d971532.jsonl.deleted.2026-03-26T20-22-19.149Z": {
+      "offset": 5756,
+      "size": 5756,
+      "mtime": 1774469897978.5818,
+      "inode": 1166856,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/593d0873-a4f6-4f7c-91a7-a4827b3bd839.jsonl.deleted.2026-03-26T05-13-10.978Z": {
+      "offset": 5672,
+      "size": 5672,
+      "mtime": 1774415305805.498,
+      "inode": 1128294,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5965ebfd-d3cc-4f43-885f-9af54e7e29d6.jsonl.deleted.2026-03-26T07-58-15.750Z": {
+      "offset": 6263,
+      "size": 6263,
+      "mtime": 1774425498509.047,
+      "inode": 1142622,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/599eb5f5-f6e6-40ee-9683-11b476ccb006.jsonl.deleted.2026-03-26T20-16-44.861Z": {
+      "offset": 6158,
+      "size": 6158,
+      "mtime": 1774469600189.0027,
+      "inode": 1166784,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5b1d2672-82e4-4b3b-ac7d-e62eaebef1f8.jsonl.deleted.2026-03-26T15-44-11.702Z": {
+      "offset": 5795,
+      "size": 5795,
+      "mtime": 1774453397143.0647,
+      "inode": 1160742,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5b74b1ea-f0c4-4fee-888d-e035a7ee6651.jsonl.deleted.2026-03-26T01-27-55.369Z": {
+      "offset": 5911,
+      "size": 5911,
+      "mtime": 1774401797481.619,
+      "inode": 1122546,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5bb7e157-215f-4b85-8f9a-01286fa1ddc6.jsonl": {
+      "offset": 7186,
+      "size": 7186,
+      "mtime": 1774564846132.7644,
+      "inode": 1323004,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5c11e037-e250-480c-bd30-dcc80d2fedfd.jsonl": {
+      "offset": 7244,
+      "size": 7244,
+      "mtime": 1774561966637.2837,
+      "inode": 1321987,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5e4e34f6-abdc-4beb-bfdc-3a53db0bb1d6.jsonl.deleted.2026-03-26T17-59-13.409Z": {
+      "offset": 13937,
+      "size": 13937,
+      "mtime": 1774461508081.9988,
+      "inode": 1162996,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/5f277810-888e-4a68-a478-e839f849876a.jsonl.deleted.2026-03-26T03-17-57.386Z": {
+      "offset": 5885,
+      "size": 5885,
+      "mtime": 1774408398635.3545,
+      "inode": 1126363,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/607cff0e-99cb-428a-a054-e083e0c5f6ac.jsonl.deleted.2026-03-26T04-43-10.465Z": {
+      "offset": 6207,
+      "size": 6207,
+      "mtime": 1774413497694.8057,
+      "inode": 1127786,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/61003d18-cfdc-428e-8b99-50fa2a7d5122.jsonl": {
+      "offset": 6920,
+      "size": 6920,
+      "mtime": 1774557264442.8892,
+      "inode": 1209255,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/611308d6-d8ec-4b1b-afb8-01c4e0d55305.jsonl.deleted.2026-03-26T15-49-11.770Z": {
+      "offset": 5890,
+      "size": 5890,
+      "mtime": 1774453696708.9817,
+      "inode": 1160827,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/61637b6f-72f1-443e-9b5c-d811c454d321.jsonl": {
+      "offset": 7420,
+      "size": 7420,
+      "mtime": 1774559926292.6887,
+      "inode": 1228780,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/617f008c-cfb9-40a2-bc57-ce3cbbcda5d8.jsonl": {
+      "offset": 7706,
+      "size": 7706,
+      "mtime": 1774564006287.289,
+      "inode": 1322725,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/61c241a6-de1b-4263-98e5-fc552ab8a512.jsonl": {
+      "offset": 7544,
+      "size": 7544,
+      "mtime": 1774560768905.5442,
+      "inode": 1230662,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/62082373-dfa8-46cb-8a47-21c2cbbdaa06.jsonl": {
+      "offset": 7410,
+      "size": 7410,
+      "mtime": 1774563290670.0464,
+      "inode": 1322488,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/62908e40-8238-47d0-a219-dd2fb1f1d03a.jsonl.deleted.2026-03-26T19-56-44.643Z": {
+      "offset": 6036,
+      "size": 6036,
+      "mtime": 1774468401092.9275,
+      "inode": 1166545,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/653dbffd-4641-49a4-a433-83139efe11d4.jsonl.deleted.2026-03-26T09-58-17.545Z": {
+      "offset": 6031,
+      "size": 6031,
+      "mtime": 1774432697343.6006,
+      "inode": 1144631,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/65ee6abf-e726-472b-91dd-0b950bfff076.jsonl.deleted.2026-03-26T10-48-18.286Z": {
+      "offset": 6231,
+      "size": 6231,
+      "mtime": 1774435698269.0325,
+      "inode": 1145687,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/669caba2-3022-4b37-a019-64f2842b30cd.jsonl.deleted.2026-03-26T05-48-11.561Z": {
+      "offset": 6466,
+      "size": 6466,
+      "mtime": 1774417401256.7202,
+      "inode": 1132534,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/67c98a13-79c0-48cd-9ca7-ddd93dcaf0fc.jsonl": {
+      "offset": 6885,
+      "size": 6885,
+      "mtime": 1774566170346.674,
+      "inode": 1323412,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/67dab98c-737c-4dcd-8d4e-37b708a35188.jsonl": {
+      "offset": 5709,
+      "size": 5709,
+      "mtime": 1774480997083.595,
+      "inode": 1171583,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/68679811-0adf-4e66-950a-f3e94d9cc9d4.jsonl": {
+      "offset": 7426,
+      "size": 7426,
+      "mtime": 1774563646090.0444,
+      "inode": 1322622,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/68b77b8b-f632-4276-ab7e-c8672fa0f084.jsonl.deleted.2026-03-26T03-47-57.920Z": {
+      "offset": 6102,
+      "size": 6102,
+      "mtime": 1774410197723.3423,
+      "inode": 1126836,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/68f6a637-89c4-466b-a39e-33109d9a1881.jsonl.deleted.2026-03-26T10-33-18.059Z": {
+      "offset": 5969,
+      "size": 5969,
+      "mtime": 1774434797493.704,
+      "inode": 1145322,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/695e9b61-5c6e-4421-95fd-b245c92eb1c8.jsonl.deleted.2026-03-26T02-42-56.739Z": {
+      "offset": 6102,
+      "size": 6102,
+      "mtime": 1774406302402.5684,
+      "inode": 1125576,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6ac8698d-e573-453c-a465-d23873fdb6f5.jsonl": {
+      "offset": 6946,
+      "size": 6946,
+      "mtime": 1774562565706.4082,
+      "inode": 1322203,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6ae8d02e-4412-437b-94dd-0865c31e8629.jsonl": {
+      "offset": 7093,
+      "size": 7093,
+      "mtime": 1774565686415.6887,
+      "inode": 1323285,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6b206a89-adea-4575-b3ed-e1b2609dc8fd.jsonl": {
+      "offset": 7469,
+      "size": 7469,
+      "mtime": 1774562687705.4988,
+      "inode": 1322229,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6b4c6b7c-4f97-427c-9812-c8196ffdadb7.jsonl.deleted.2026-03-26T08-53-16.599Z": {
+      "offset": 5786,
+      "size": 5786,
+      "mtime": 1774428798960.383,
+      "inode": 1143673,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6bb2e5e3-cf04-450c-8fcf-264c59a54de1.jsonl.deleted.2026-03-26T15-08-21.283Z": {
+      "offset": 5816,
+      "size": 5816,
+      "mtime": 1774451296838.0867,
+      "inode": 1156417,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6cbe946b-d753-43fe-a658-749b6af22939.jsonl.deleted.2026-03-26T06-03-13.909Z": {
+      "offset": 5980,
+      "size": 5980,
+      "mtime": 1774418297197.485,
+      "inode": 1133961,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6cc06b64-3477-4a88-a09e-17bc45e4340d.jsonl": {
+      "offset": 7275,
+      "size": 7275,
+      "mtime": 1774564127202.0347,
+      "inode": 1322761,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6cdaa2ff-fc49-4055-975c-e97225bf3b93.jsonl": {
+      "offset": 6962,
+      "size": 6962,
+      "mtime": 1774565927828.623,
+      "inode": 1323337,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6d2ea4d1-890e-4768-87a6-9253e6ed81c3.jsonl.deleted.2026-03-26T18-59-14.080Z": {
+      "offset": 4853,
+      "size": 4853,
+      "mtime": 1774465116606.829,
+      "inode": 1163993,
+      "recordCount": 0
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6d3c37ec-9552-4e38-8ce4-433d9ec41d78.jsonl.deleted.2026-03-26T06-38-14.464Z": {
+      "offset": 6291,
+      "size": 6291,
+      "mtime": 1774420697220.0083,
+      "inode": 1135122,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/6da6d929-93d9-4d49-882b-95c1a6fa32cc.jsonl": {
+      "offset": 7119,
+      "size": 7119,
+      "mtime": 1774558464227.0657,
+      "inode": 1209895,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/703f5673-7574-4541-8590-9e297daabb71.jsonl.deleted.2026-03-26T05-33-11.314Z": {
+      "offset": 5965,
+      "size": 5965,
+      "mtime": 1774416497038.0063,
+      "inode": 1128630,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/704718ad-c02a-476e-97c4-5418d2af8204.jsonl": {
+      "offset": 7270,
+      "size": 7270,
+      "mtime": 1774568087677.1775,
+      "inode": 1326883,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/70957da6-54ba-4e03-8cb0-7a2c1016e7cd.jsonl.deleted.2026-03-26T03-37-57.745Z": {
+      "offset": 6192,
+      "size": 6192,
+      "mtime": 1774409597468.9238,
+      "inode": 1126717,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/70bdca19-5239-4fb3-9591-8243110a1a25.jsonl.deleted.2026-03-26T19-26-44.314Z": {
+      "offset": 5928,
+      "size": 5928,
+      "mtime": 1774466598170.0999,
+      "inode": 1166099,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/71cbc253-ed5e-4f77-acd8-bb358e2df9be.jsonl.deleted.2026-03-26T00-32-54.335Z": {
+      "offset": 6108,
+      "size": 6108,
+      "mtime": 1774398497666.93,
+      "inode": 1114923,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/72a68179-7725-4d40-baa0-3a1df85104e4.jsonl": {
+      "offset": 7213,
+      "size": 7213,
+      "mtime": 1774564487017.5256,
+      "inode": 1322870,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/72a7ed1a-996c-40b8-8ebf-3c6c1e680029.jsonl.deleted.2026-03-26T20-01-44.697Z": {
+      "offset": 6145,
+      "size": 6145,
+      "mtime": 1774468702345.1392,
+      "inode": 1166612,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/73752f61-5fde-4ad4-b076-e1c3682cd245.jsonl.deleted.2026-03-26T09-08-16.818Z": {
+      "offset": 6000,
+      "size": 6000,
+      "mtime": 1774429697492.424,
+      "inode": 1143920,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/73af409e-5313-497a-99bf-4689869c4ee1.jsonl": {
+      "offset": 6869,
+      "size": 6869,
+      "mtime": 1774569166206.415,
+      "inode": 1329814,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/73d9ea3c-74b3-4d96-9e9d-dc489db9e806.jsonl.deleted.2026-03-26T03-07-57.202Z": {
+      "offset": 6314,
+      "size": 6314,
+      "mtime": 1774407797658.4639,
+      "inode": 1126217,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/73fa497d-4f7d-419f-abf7-ca1e1b26f97d.jsonl": {
+      "offset": 7525,
+      "size": 7525,
+      "mtime": 1774568926362.6326,
+      "inode": 1329687,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7426bb9a-2e64-40c1-8568-b51daf03aebc.jsonl.deleted.2026-03-26T05-53-11.648Z": {
+      "offset": 6811,
+      "size": 6811,
+      "mtime": 1774417697883.4912,
+      "inode": 1133775,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/743d155c-9118-4986-aa75-4875dc30ff78.jsonl.deleted.2026-03-26T20-43-19.056Z": {
+      "offset": 5860,
+      "size": 5860,
+      "mtime": 1774471403483.8364,
+      "inode": 1167281,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7526c8f8-8288-45e5-8b76-82221301eb06.jsonl": {
+      "offset": 490068,
+      "size": 490068,
+      "mtime": 1774403637134.3408,
+      "inode": 1041700,
+      "recordCount": 92
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/76b4dcd2-3fca-49df-9c2b-2f30861bbfaf.jsonl": {
+      "offset": 7606,
+      "size": 7606,
+      "mtime": 1774556783982.737,
+      "inode": 1209055,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/79302474-80a1-4190-9cfd-2bc74e8d39f1.jsonl.deleted.2026-03-26T06-08-13.992Z": {
+      "offset": 6219,
+      "size": 6219,
+      "mtime": 1774418897842.2744,
+      "inode": 1134111,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/79817a72-f5c1-44f7-b84f-5b7703fef74d.jsonl.reset.2026-03-26T20-21-28.746Z": {
+      "offset": 25725,
+      "size": 25725,
+      "mtime": 1774556089021.371,
+      "inode": 1207588,
+      "recordCount": 6
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7aba6df2-7db7-4791-a7ed-f8b033f3d3bf.jsonl.deleted.2026-03-26T21-38-46.502Z": {
+      "offset": 13168,
+      "size": 13168,
+      "mtime": 1774474407472.8855,
+      "inode": 1168157,
+      "recordCount": 4
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7b2db273-ae7e-4833-85a0-9dac1d07fb72.jsonl.deleted.2026-03-26T09-28-17.112Z": {
+      "offset": 6024,
+      "size": 6024,
+      "mtime": 1774430897492.7703,
+      "inode": 1144228,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7b6750fc-162e-46d1-a583-ddca9a213274.jsonl.deleted.2026-03-26T04-02-58.181Z": {
+      "offset": 5789,
+      "size": 5789,
+      "mtime": 1774411096899.488,
+      "inode": 1127057,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7cae986a-b1a1-4670-a7f3-8a3511f54df7.jsonl.deleted.2026-03-26T18-09-13.517Z": {
+      "offset": 6352,
+      "size": 6352,
+      "mtime": 1774462102833.9302,
+      "inode": 1163116,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7ce7f444-611a-44a3-8382-5b856e869e1d.jsonl": {
+      "offset": 7355,
+      "size": 7355,
+      "mtime": 1774557505947.901,
+      "inode": 1209384,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7cec7bd1-4fd0-49d3-9f0b-3a7921584178.jsonl": {
+      "offset": 7462,
+      "size": 7462,
+      "mtime": 1774568686531.5383,
+      "inode": 1329617,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7d61acfe-310c-4cdb-be58-d674d5214a48.jsonl.deleted.2026-03-26T07-13-15.034Z": {
+      "offset": 5731,
+      "size": 5731,
+      "mtime": 1774422797095.1526,
+      "inode": 1141883,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7e3aadc0-4779-45c2-8130-3ff8ea59fffb.jsonl": {
+      "offset": 7505,
+      "size": 7505,
+      "mtime": 1774556539091.253,
+      "inode": 1208936,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7e5546b3-b163-4197-9e6b-76457bea2634.jsonl.deleted.2026-03-26T08-48-16.520Z": {
+      "offset": 6267,
+      "size": 6267,
+      "mtime": 1774428503438.69,
+      "inode": 1143608,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7eec271a-1ad6-4105-89a6-9270f399a564.jsonl.reset.2026-03-26T19-21-19.383Z": {
+      "offset": 963810,
+      "size": 963810,
+      "mtime": 1774552871418.906,
+      "inode": 1169196,
+      "recordCount": 211
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/7fd84519-e9f6-4704-b8c6-1aa69cc91a21.jsonl": {
+      "offset": 7609,
+      "size": 7609,
+      "mtime": 1774560647675.6384,
+      "inode": 1230606,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/80d3b135-061d-45c0-a202-687b00d667aa.jsonl": {
+      "offset": 7204,
+      "size": 7204,
+      "mtime": 1774567726846.2566,
+      "inode": 1326744,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/81002c14-5129-4da7-908c-c8abc73cebe2.jsonl": {
+      "offset": 698856,
+      "size": 698856,
+      "mtime": 1774378673679.7546,
+      "inode": 1051562,
+      "recordCount": 39
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8115e593-b269-485f-b320-9b01b3d72160.jsonl": {
+      "offset": 7656,
+      "size": 7656,
+      "mtime": 1774565207359.1714,
+      "inode": 1323131,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/811a64b6-990c-48d7-bdec-d129adac1b37.jsonl": {
+      "offset": 6740,
+      "size": 6740,
+      "mtime": 1774567126498.876,
+      "inode": 1326569,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/814ef387-8732-44ee-889b-c29783f5ad2c.jsonl": {
+      "offset": 7943,
+      "size": 7943,
+      "mtime": 1774557026804.174,
+      "inode": 1209175,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/82932167-99d9-4db8-985b-0210aba18aba.jsonl": {
+      "offset": 7729,
+      "size": 7729,
+      "mtime": 1774564248363.2039,
+      "inode": 1322789,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/82d420b9-301f-4f2c-8a38-17c0b77b971b.jsonl.deleted.2026-03-26T22-27-46.390Z": {
+      "offset": 6171,
+      "size": 6171,
+      "mtime": 1774477397998.95,
+      "inode": 1169652,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/82f59b67-2c34-45ab-8f72-0ca29b192118.jsonl.deleted.2026-03-26T18-34-13.809Z": {
+      "offset": 5798,
+      "size": 5798,
+      "mtime": 1774463599612.636,
+      "inode": 1163604,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/839d1946-141d-4df9-8a77-7974d05a105f.jsonl.deleted.2026-03-26T03-42-57.832Z": {
+      "offset": 6088,
+      "size": 6088,
+      "mtime": 1774409897940.402,
+      "inode": 1126769,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/854fbb02-90eb-4000-895d-cb0964e5b391.jsonl.deleted.2026-03-26T21-09-52.274Z": {
+      "offset": 5803,
+      "size": 5803,
+      "mtime": 1774472897610.278,
+      "inode": 1167675,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/85be46eb-5689-46b7-8b89-4d9e80e7450e.jsonl.deleted.2026-03-26T04-18-10.029Z": {
+      "offset": 5769,
+      "size": 5769,
+      "mtime": 1774411997146.3154,
+      "inode": 1127291,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/85c2b282-4d35-4e68-98cc-3b16f6bb8318.jsonl.deleted.2026-03-26T03-27-57.567Z": {
+      "offset": 5938,
+      "size": 5938,
+      "mtime": 1774408997101.8188,
+      "inode": 1126553,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/86019d68-f2d3-4672-b641-468cca94ba88.jsonl": {
+      "offset": 7335,
+      "size": 7335,
+      "mtime": 1774567246178.9673,
+      "inode": 1326604,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/86213559-fcd1-4d67-9d82-e494859a3265.jsonl.deleted.2026-03-26T01-37-55.554Z": {
+      "offset": 5705,
+      "size": 5705,
+      "mtime": 1774402400097.2905,
+      "inode": 1122720,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/86c5a328-77c2-422b-8ef2-f0d922dfe97d.jsonl": {
+      "offset": 7357,
+      "size": 7357,
+      "mtime": 1774559058595.373,
+      "inode": 1210164,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/88a23935-d8a2-4723-a484-46ab7b9320a2.jsonl": {
+      "offset": 7137,
+      "size": 7137,
+      "mtime": 1774562326095.1846,
+      "inode": 1322141,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/88b3e7aa-dab9-4f2c-b0d3-62845e68919f.jsonl.deleted.2026-03-26T16-29-12.284Z": {
+      "offset": 10636,
+      "size": 10636,
+      "mtime": 1774456101378.6501,
+      "inode": 1161506,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/894d015e-1388-448f-94d3-33779dc22114.jsonl.deleted.2026-03-26T20-43-19.056Z": {
+      "offset": 6072,
+      "size": 6072,
+      "mtime": 1774471106719.453,
+      "inode": 1167221,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/898d606e-4071-4349-820d-b9fa26f832f7.jsonl": {
+      "offset": 1053213,
+      "size": 1053213,
+      "mtime": 1774556651294.3389,
+      "inode": 821557,
+      "recordCount": 160
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/89f7cd8d-e44d-4891-bfad-41227a51d561.jsonl.deleted.2026-03-26T20-27-24.068Z": {
+      "offset": 5940,
+      "size": 5940,
+      "mtime": 1774470198505.4673,
+      "inode": 1167045,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8a157548-dd14-4251-9d38-994bfea9c327.jsonl": {
+      "offset": 7040,
+      "size": 7040,
+      "mtime": 1774560288917.9521,
+      "inode": 1229025,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8a1eb637-ba6e-4b51-a8fb-0dd6e0fb01f0.jsonl.deleted.2026-03-26T07-08-14.956Z": {
+      "offset": 5780,
+      "size": 5780,
+      "mtime": 1774422499724.6685,
+      "inode": 1141817,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8a8a6007-db65-4aa6-b9f3-da9bd9f46faa.jsonl.deleted.2026-03-26T22-37-46.580Z": {
+      "offset": 5888,
+      "size": 5888,
+      "mtime": 1774477997512.6384,
+      "inode": 1169801,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8bc97211-9d21-4ff9-9115-6e8c9129a838.jsonl": {
+      "offset": 7550,
+      "size": 7550,
+      "mtime": 1774569050908.3313,
+      "inode": 1329768,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8c32973f-feea-4924-9dca-790560b03641.jsonl.deleted.2026-03-26T16-19-12.157Z": {
+      "offset": 6117,
+      "size": 6117,
+      "mtime": 1774455499835.3027,
+      "inode": 1161232,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8c6ec3d0-9330-40dd-8d48-1c25b908c0b8.jsonl": {
+      "offset": 7171,
+      "size": 7171,
+      "mtime": 1774562812753.808,
+      "inode": 1322274,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8d7c952e-8690-4ae9-b666-771359c7bd68.jsonl.deleted.2026-03-26T01-52-55.833Z": {
+      "offset": 6009,
+      "size": 6009,
+      "mtime": 1774403298280.9026,
+      "inode": 1122986,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8e417f38-5d3b-4819-921a-e5e1e1fadd4b.jsonl.deleted.2026-03-26T02-27-56.486Z": {
+      "offset": 5822,
+      "size": 5822,
+      "mtime": 1774405396885.143,
+      "inode": 1125363,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8ebe00b7-00ed-4baa-a55a-15f618332010.jsonl.deleted.2026-03-26T11-13-18.640Z": {
+      "offset": 6162,
+      "size": 6162,
+      "mtime": 1774437197476.504,
+      "inode": 1146094,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8f6a6db9-d278-46a9-9b14-6c21e86fbeb4.jsonl.deleted.2026-03-26T11-28-18.851Z": {
+      "offset": 5830,
+      "size": 5830,
+      "mtime": 1774438097810.631,
+      "inode": 1146349,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8f815643-f1df-4f71-88c6-f9c7efca0d46.jsonl.deleted.2026-03-26T01-22-55.275Z": {
+      "offset": 6189,
+      "size": 6189,
+      "mtime": 1774401498915.1978,
+      "inode": 1122441,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/8fd4730e-7d2f-4567-b683-ac3266b3e018.jsonl.deleted.2026-03-26T03-52-58.008Z": {
+      "offset": 5801,
+      "size": 5801,
+      "mtime": 1774410500562.008,
+      "inode": 1126918,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/91a8d4eb-fbd5-401a-8174-6d8dfe047b76.jsonl": {
+      "offset": 7228,
+      "size": 7228,
+      "mtime": 1774565565991.7434,
+      "inode": 1323238,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9437cb1a-9afc-4d29-bcdb-3cfde200c5a9.jsonl.deleted.2026-03-26T17-49-13.286Z": {
+      "offset": 6222,
+      "size": 6222,
+      "mtime": 1774460897578.6775,
+      "inode": 1162830,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/94bb0570-6b10-43bd-92ca-5616f2f95684.jsonl": {
+      "offset": 7397,
+      "size": 7397,
+      "mtime": 1774557386152.135,
+      "inode": 1209311,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/960386d9-4313-4163-b8de-500665c6f654.jsonl.deleted.2026-03-26T05-28-11.232Z": {
+      "offset": 5990,
+      "size": 5990,
+      "mtime": 1774416197202.832,
+      "inode": 1128547,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/987738b6-3888-40bc-a62e-64a3cf56a15a.jsonl.deleted.2026-03-26T17-24-12.984Z": {
+      "offset": 6154,
+      "size": 6154,
+      "mtime": 1774459397736.2986,
+      "inode": 1162353,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/987a5284-dc9c-4078-827e-8bb9bb6282b4.jsonl.deleted.2026-03-26T22-47-47.459Z": {
+      "offset": 5901,
+      "size": 5901,
+      "mtime": 1774478602642.5962,
+      "inode": 1169986,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9904b838-450a-42b4-a88f-2ca231b84d96.jsonl.deleted.2026-03-26T02-22-56.394Z": {
+      "offset": 5737,
+      "size": 5737,
+      "mtime": 1774405096673.5544,
+      "inode": 1125303,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9ac08801-75fc-42ea-9885-0b172f9d2060.jsonl.deleted.2026-03-26T23-03-50.448Z": {
+      "offset": 6023,
+      "size": 6023,
+      "mtime": 1774479803255.7163,
+      "inode": 1170874,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9afc2637-2d2e-438b-83f0-d2a87845fe5c.jsonl.deleted.2026-03-26T05-38-11.390Z": {
+      "offset": 6091,
+      "size": 6091,
+      "mtime": 1774416797961.062,
+      "inode": 1128689,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9d93753d-9332-4b88-b987-53b02d8d4866.jsonl": {
+      "offset": 7282,
+      "size": 7282,
+      "mtime": 1774566646495.7134,
+      "inode": 1325038,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9ecc1b07-32f1-4ca9-9af3-3a7cf76ae103.jsonl.deleted.2026-03-26T21-15-48.458Z": {
+      "offset": 6153,
+      "size": 6153,
+      "mtime": 1774473198445.0076,
+      "inode": 1167808,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/9f32aa26-9afe-4457-9b1c-0d21b27e0d7e.jsonl.deleted.2026-03-26T17-39-13.164Z": {
+      "offset": 6080,
+      "size": 6080,
+      "mtime": 1774460297159.2456,
+      "inode": 1162564,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a0053442-7c24-4f9f-b84e-782e24a6b8c1.jsonl": {
+      "offset": 7072,
+      "size": 7072,
+      "mtime": 1774564966687.127,
+      "inode": 1323050,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a0065884-a206-49e2-b017-4c31335401d8.jsonl.deleted.2026-03-26T04-08-09.861Z": {
+      "offset": 6364,
+      "size": 6364,
+      "mtime": 1774411399883.822,
+      "inode": 1127149,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a0d3203a-9cba-49fa-ba0e-4396398d1631.jsonl": {
+      "offset": 7267,
+      "size": 7267,
+      "mtime": 1774568568081.6255,
+      "inode": 1329587,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a112bf3c-2d8b-4dd7-9b51-24c0283b117e.jsonl": {
+      "offset": 7420,
+      "size": 7420,
+      "mtime": 1774566527770.5833,
+      "inode": 1324929,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a156e260-d837-4861-87c8-4c732b69447f.jsonl.deleted.2026-03-26T01-32-55.461Z": {
+      "offset": 5845,
+      "size": 5845,
+      "mtime": 1774402097430.2773,
+      "inode": 1122655,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a2102484-cee2-4d18-b662-9ab2f1961288.jsonl": {
+      "offset": 7496,
+      "size": 7496,
+      "mtime": 1774565327347.6555,
+      "inode": 1323179,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a280c0b0-9306-4404-8992-7bd0de9594a7.jsonl.deleted.2026-03-26T15-33-21.641Z": {
+      "offset": 5808,
+      "size": 5808,
+      "mtime": 1774452797109.5247,
+      "inode": 1159127,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a2ebf0bb-4d26-4a75-aaf6-50395e7f3bde.jsonl.deleted.2026-03-26T08-23-16.141Z": {
+      "offset": 5952,
+      "size": 5952,
+      "mtime": 1774426997680.841,
+      "inode": 1142990,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a59cb633-c8a1-4fb2-a1ae-5dd9517f3fa7.jsonl.deleted.2026-03-26T16-49-12.538Z": {
+      "offset": 5713,
+      "size": 5713,
+      "mtime": 1774457296575.08,
+      "inode": 1161862,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a5e88f7d-990e-499b-b1c0-8aa609bd68db.jsonl.deleted.2026-03-26T20-32-24.667Z": {
+      "offset": 6536,
+      "size": 6536,
+      "mtime": 1774470498905.5493,
+      "inode": 1167111,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a614344c-31a7-4342-9336-377cb33bd5a1.jsonl.deleted.2026-03-26T15-28-21.571Z": {
+      "offset": 11646,
+      "size": 11646,
+      "mtime": 1774452503993.8926,
+      "inode": 1158974,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a70486bc-eaa0-44d8-9796-1e4c8facccb9.jsonl": {
+      "offset": 6143,
+      "size": 6143,
+      "mtime": 1774568207035.6472,
+      "inode": 1329442,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a87cc775-98ff-4a4b-81bb-a03780cf0c3a.jsonl": {
+      "offset": 7313,
+      "size": 7313,
+      "mtime": 1774561246017.2502,
+      "inode": 1241637,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a8961d2d-01f4-4b2d-ae3a-d724134fb96a.jsonl.deleted.2026-03-26T16-14-12.093Z": {
+      "offset": 27617,
+      "size": 27617,
+      "mtime": 1774455253132.7104,
+      "inode": 1161130,
+      "recordCount": 10
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a8f9339d-ab50-4c83-965a-b4754bc61564.jsonl": {
+      "offset": 7487,
+      "size": 7487,
+      "mtime": 1774566287303.4236,
+      "inode": 1323448,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/a9b852fc-ea92-4561-b3e1-e7e766d8fa9f.jsonl": {
+      "offset": 8041,
+      "size": 8041,
+      "mtime": 1774561007976.006,
+      "inode": 1230782,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/aa696e6f-fd4c-42ad-9efe-842a05689a9a.jsonl.deleted.2026-03-26T09-38-17.258Z": {
+      "offset": 6136,
+      "size": 6136,
+      "mtime": 1774431497798.6287,
+      "inode": 1144341,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/aa978826-32d1-4442-a726-0006648537a2.jsonl.deleted.2026-03-26T01-02-54.903Z": {
+      "offset": 5789,
+      "size": 5789,
+      "mtime": 1774400296717.1768,
+      "inode": 1115512,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ac11707f-d478-4ae8-b3c0-86937c6205fd.jsonl.deleted.2026-03-26T23-21-46.289Z": {
+      "offset": 6255,
+      "size": 6255,
+      "mtime": 1774480697829.3384,
+      "inode": 1171411,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ae2cb81a-119e-4b2d-8438-161042930c5e.jsonl": {
+      "offset": 7425,
+      "size": 7425,
+      "mtime": 1774568446411.9817,
+      "inode": 1329556,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ae919e55-7d2e-4e66-868e-8845dac6b69c.jsonl": {
+      "offset": 7115,
+      "size": 7115,
+      "mtime": 1774563765751.7869,
+      "inode": 1322663,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/aefa077a-78da-441c-aeaa-3c0b84c68fc3.jsonl.deleted.2026-03-26T09-03-16.740Z": {
+      "offset": 5842,
+      "size": 5842,
+      "mtime": 1774429404985.9631,
+      "inode": 1143853,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b0df270e-fe3e-44f5-aa8b-59cee3b40cb1.jsonl": {
+      "offset": 7251,
+      "size": 7251,
+      "mtime": 1774563046309.9,
+      "inode": 1322417,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b19e284d-98b0-4b36-9869-a3789251bb3e.jsonl.deleted.2026-03-26T07-03-14.876Z": {
+      "offset": 6137,
+      "size": 6137,
+      "mtime": 1774422202262.1719,
+      "inode": 1135502,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b22f2648-472b-4e39-a2ef-ad4fcadabcf5.jsonl": {
+      "offset": 6969,
+      "size": 6969,
+      "mtime": 1774562205535.0159,
+      "inode": 1322086,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b2b55b0c-447d-4ccc-8c9c-e50e9bfc87ef.jsonl.deleted.2026-03-26T10-03-17.614Z": {
+      "offset": 5715,
+      "size": 5715,
+      "mtime": 1774433000450.1887,
+      "inode": 1144710,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b31eb223-b7d0-427f-8de1-718bf32c7fd4.jsonl.deleted.2026-03-26T22-53-46.105Z": {
+      "offset": 5875,
+      "size": 5875,
+      "mtime": 1774479198983.0627,
+      "inode": 1170334,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b32bf4fa-529b-459c-a402-f061bc355363.jsonl.deleted.2026-03-26T16-09-12.026Z": {
+      "offset": 5919,
+      "size": 5919,
+      "mtime": 1774454898760.7327,
+      "inode": 1161062,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b415cc43-3234-492d-a0cb-a43975e4d503.jsonl.deleted.2026-03-26T09-18-16.968Z": {
+      "offset": 6096,
+      "size": 6096,
+      "mtime": 1774430297703.6375,
+      "inode": 1144077,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b45f1f6b-8425-4993-9595-da3f1a19e69d.jsonl": {
+      "offset": 7487,
+      "size": 7487,
+      "mtime": 1774561846661.1448,
+      "inode": 1321962,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b465902c-e07d-4c4e-8172-ff036a9b29ba.jsonl.reset.2026-03-25T08-24-25.354Z": {
+      "offset": 203249,
+      "size": 203249,
+      "mtime": 1774425273523.7378,
+      "inode": 946088,
+      "recordCount": 24
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b492e071-d11e-4584-b902-f538ec8da930.jsonl.deleted.2026-03-26T04-38-10.385Z": {
+      "offset": 5988,
+      "size": 5988,
+      "mtime": 1774413196847.1694,
+      "inode": 1127688,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b632a60f-fc2c-4166-98b7-42c0707b9d1e.jsonl.deleted.2026-03-26T15-13-21.352Z": {
+      "offset": 30840,
+      "size": 30840,
+      "mtime": 1774451616719.7173,
+      "inode": 1157536,
+      "recordCount": 10
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b7cf0a5b-78fe-4d12-87bd-04f280de603b.jsonl": {
+      "offset": 35576,
+      "size": 35576,
+      "mtime": 1774480966325.1978,
+      "inode": 1171556,
+      "recordCount": 4
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b931b712-c920-4e03-885e-41da299c75ed.jsonl.deleted.2026-03-26T19-46-44.538Z": {
+      "offset": 6649,
+      "size": 6649,
+      "mtime": 1774467799682.6062,
+      "inode": 1166432,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/b9ba9272-dca3-4a3d-9057-7693616022b1.jsonl.deleted.2026-03-26T09-53-17.474Z": {
+      "offset": 5830,
+      "size": 5830,
+      "mtime": 1774432398513.6624,
+      "inode": 1144560,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ba1ed165-0710-4400-aaeb-844aebc3976c.jsonl.deleted.2026-03-26T21-43-46.781Z": {
+      "offset": 19769,
+      "size": 19769,
+      "mtime": 1774475020441.7588,
+      "inode": 1168337,
+      "recordCount": 10
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ba684245-1a1e-4067-a308-ba2a023440dd.jsonl.deleted.2026-03-26T10-23-17.913Z": {
+      "offset": 5856,
+      "size": 5856,
+      "mtime": 1774434197303.6892,
+      "inode": 1145106,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/bb518bb2-c54e-4c62-b459-81e64c92eaa9.jsonl": {
+      "offset": 7145,
+      "size": 7145,
+      "mtime": 1774559450421.9277,
+      "inode": 1227713,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/be6c25f4-9349-4183-b03e-51727c738127.jsonl.deleted.2026-03-26T04-23-10.116Z": {
+      "offset": 5846,
+      "size": 5846,
+      "mtime": 1774412297086.5308,
+      "inode": 1127467,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/bed2a0f1-ad3f-41d8-9238-3d25caf30b78.jsonl.deleted.2026-03-26T06-28-14.309Z": {
+      "offset": 6432,
+      "size": 6432,
+      "mtime": 1774420097495.208,
+      "inode": 1135013,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c0aaea04-5289-4d29-b3d7-48908c34af1b.jsonl": {
+      "offset": 141631,
+      "size": 141631,
+      "mtime": 1774534463774.4355,
+      "inode": 1199802,
+      "recordCount": 5
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c1035e27-2912-4420-ae7f-203aaf8f2324.jsonl.deleted.2026-03-26T18-14-13.579Z": {
+      "offset": 9692,
+      "size": 9692,
+      "mtime": 1774462407311.467,
+      "inode": 1163182,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c14f194f-8b3c-415e-aafb-64f0307cb804.jsonl": {
+      "offset": 7339,
+      "size": 7339,
+      "mtime": 1774566406465.189,
+      "inode": 1324794,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c2a123f2-4c37-4f80-939d-7e90b0981361.jsonl.deleted.2026-03-26T08-03-15.833Z": {
+      "offset": 11764,
+      "size": 11764,
+      "mtime": 1774425810098.1494,
+      "inode": 1142696,
+      "recordCount": 4
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c2aa130b-05e3-4f7b-8ea6-b8143563ebf2.jsonl.deleted.2026-03-26T19-41-44.480Z": {
+      "offset": 6094,
+      "size": 6094,
+      "mtime": 1774467497734.2852,
+      "inode": 1166362,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c3efc8d0-19f6-432b-ba3e-492d670f90fa.jsonl.deleted.2026-03-26T22-00-47.483Z": {
+      "offset": 6067,
+      "size": 6067,
+      "mtime": 1774475897397.0007,
+      "inode": 1169134,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c49589d2-9bd7-4752-95de-fc5b26068691.jsonl.deleted.2026-03-26T16-44-12.478Z": {
+      "offset": 5891,
+      "size": 5891,
+      "mtime": 1774456997233.1118,
+      "inode": 1161741,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c4c52cdf-699b-4422-a274-aab4d81a0c35.jsonl.deleted.2026-03-26T15-38-21.706Z": {
+      "offset": 6306,
+      "size": 6306,
+      "mtime": 1774453097523.8682,
+      "inode": 1160626,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c51008f2-93f5-4780-b1f4-aeb617742f00.jsonl.deleted.2026-03-26T08-43-16.446Z": {
+      "offset": 6013,
+      "size": 6013,
+      "mtime": 1774428199484.3018,
+      "inode": 1143253,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c548e5fd-2361-4661-bf28-70a210455d7b.jsonl.deleted.2026-03-26T11-03-18.498Z": {
+      "offset": 5920,
+      "size": 5920,
+      "mtime": 1774436597503.0083,
+      "inode": 1145962,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c5ba9a9c-bc45-4cff-b48a-51043abdb6a7.jsonl.deleted.2026-03-26T00-42-54.522Z": {
+      "offset": 5814,
+      "size": 5814,
+      "mtime": 1774399097317.5693,
+      "inode": 1115082,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c74a22e1-64e2-44b1-b771-f6ac46168ef5.jsonl.deleted.2026-03-26T00-52-54.718Z": {
+      "offset": 5912,
+      "size": 5912,
+      "mtime": 1774399697777.1484,
+      "inode": 1115344,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c8cc875a-d108-4dd5-8af3-d6118f20702c.jsonl.deleted.2026-03-26T06-48-14.627Z": {
+      "offset": 6122,
+      "size": 6122,
+      "mtime": 1774421297700.7327,
+      "inode": 1135303,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c8e6ebac-4deb-458e-bb02-b00eb58103f5.jsonl.deleted.2026-03-26T04-58-10.726Z": {
+      "offset": 14904,
+      "size": 14904,
+      "mtime": 1774414406172.002,
+      "inode": 1128065,
+      "recordCount": 5
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c9bc4850-a21c-4dbd-ac5b-df87e476e940.jsonl.deleted.2026-03-26T18-44-13.924Z": {
+      "offset": 6227,
+      "size": 6227,
+      "mtime": 1774464198189.6025,
+      "inode": 1163711,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/c9bec2e2-59c1-41ef-a8b2-b4bff338b1fa.jsonl.deleted.2026-03-26T16-04-11.959Z": {
+      "offset": 15627,
+      "size": 15627,
+      "mtime": 1774454631081.5789,
+      "inode": 1161023,
+      "recordCount": 5
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ca2e7551-beb0-444b-a2d6-cd88d9ad114a.jsonl": {
+      "offset": 7023,
+      "size": 7023,
+      "mtime": 1774558697743.6545,
+      "inode": 1209994,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ca36a49a-2b53-4e60-872b-dfd272032b2d.jsonl.deleted.2026-03-26T18-19-13.634Z": {
+      "offset": 6043,
+      "size": 6043,
+      "mtime": 1774462697688.9749,
+      "inode": 1163279,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ca51bb77-587c-4112-a55c-4aa7d36f54ab.jsonl": {
+      "offset": 7393,
+      "size": 7393,
+      "mtime": 1774564727695.4153,
+      "inode": 1322963,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/caa4d567-b054-4ad6-9ffb-041054eca873.jsonl.deleted.2026-03-26T20-11-44.805Z": {
+      "offset": 6034,
+      "size": 6034,
+      "mtime": 1774469302720.1707,
+      "inode": 1166714,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cb5720b2-aefa-4f82-a14a-5acf46895295.jsonl.deleted.2026-03-26T17-29-13.045Z": {
+      "offset": 6040,
+      "size": 6040,
+      "mtime": 1774459703217.3079,
+      "inode": 1162431,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cb701f1f-2bda-48d3-8c29-bfd590ee0c23.jsonl.deleted.2026-03-26T20-37-26.238Z": {
+      "offset": 5841,
+      "size": 5841,
+      "mtime": 1774470800751.981,
+      "inode": 1167168,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cbee8eb7-6381-4740-8c91-9e1a3d9d53e2.jsonl": {
+      "offset": 7230,
+      "size": 7230,
+      "mtime": 1774560413357.6975,
+      "inode": 1229584,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cc3fc09d-bd71-47f0-bed6-ee7610954689.jsonl.deleted.2026-03-26T17-54-13.348Z": {
+      "offset": 6016,
+      "size": 6016,
+      "mtime": 1774461196948.8809,
+      "inode": 1162901,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ccedee1a-6fee-49e2-a5bd-dc85ea92864a.jsonl": {
+      "offset": 7286,
+      "size": 7286,
+      "mtime": 1774558823047.0671,
+      "inode": 1210025,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cd037565-ed99-4470-b2b9-303a3e05c8a7.jsonl": {
+      "offset": 7311,
+      "size": 7311,
+      "mtime": 1774561606040.756,
+      "inode": 1321774,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cd40c8db-6663-495d-80e3-1c536ac33388.jsonl": {
+      "offset": 7474,
+      "size": 7474,
+      "mtime": 1774557144597.0293,
+      "inode": 1209216,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cd4677b3-3660-4594-b6dd-81410ab20d90.jsonl.deleted.2026-03-26T10-58-18.422Z": {
+      "offset": 6037,
+      "size": 6037,
+      "mtime": 1774436297994.7764,
+      "inode": 1145877,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cd9b93d9-f701-47d8-8236-e1c5d0f78015.jsonl.deleted.2026-03-26T08-08-15.910Z": {
+      "offset": 6196,
+      "size": 6196,
+      "mtime": 1774426101714.6436,
+      "inode": 1142757,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ce0a2b1d-40fb-4bb7-a3ee-39ff87d8b761.jsonl": {
+      "offset": 7444,
+      "size": 7444,
+      "mtime": 1774560533265.7646,
+      "inode": 1230402,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ce23db5f-261f-4644-8307-2f8be9005c02.jsonl.deleted.2026-03-26T07-18-15.117Z": {
+      "offset": 5670,
+      "size": 5670,
+      "mtime": 1774423097829.7427,
+      "inode": 1142060,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cf6691ff-4d3a-4169-b0cb-15b7048bd829.jsonl.deleted.2026-03-26T03-12-57.293Z": {
+      "offset": 6372,
+      "size": 6372,
+      "mtime": 1774408097061.027,
+      "inode": 1126287,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/cf855cb1-fffa-4be3-aced-d9b82a617d4d.jsonl.deleted.2026-03-26T06-23-14.226Z": {
+      "offset": 6186,
+      "size": 6186,
+      "mtime": 1774419797197.4863,
+      "inode": 1134828,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d04456e1-f354-4fef-b71e-bdb2ce1be7ac.jsonl.deleted.2026-03-26T18-54-14.029Z": {
+      "offset": 4853,
+      "size": 4853,
+      "mtime": 1774464815375.6301,
+      "inode": 1163910,
+      "recordCount": 0
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d0bd8d30-fbbc-4a03-9bd8-c38409506b40.jsonl.deleted.2026-03-26T21-38-46.503Z": {
+      "offset": 10340,
+      "size": 10340,
+      "mtime": 1774474705056.1624,
+      "inode": 1168219,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d173f241-24af-4f9c-8cfd-e9f8475755e2.jsonl.deleted.2026-03-26T15-54-11.829Z": {
+      "offset": 5701,
+      "size": 5701,
+      "mtime": 1774453997827.57,
+      "inode": 1160884,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d26ae8be-1863-4573-857d-3c037c268c67.jsonl": {
+      "offset": 7521,
+      "size": 7521,
+      "mtime": 1774568806289.6858,
+      "inode": 1329659,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d6463b03-6951-43b2-9657-d15684c5d928.jsonl.deleted.2026-03-26T09-48-17.405Z": {
+      "offset": 6154,
+      "size": 6154,
+      "mtime": 1774432098967.1865,
+      "inode": 1144477,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d74d1845-e338-422a-b6d3-28147f812a67.jsonl": {
+      "offset": 7505,
+      "size": 7505,
+      "mtime": 1774565089690.69,
+      "inode": 1323089,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d87279d5-f6aa-4456-854a-339af76b1317.jsonl": {
+      "offset": 7278,
+      "size": 7278,
+      "mtime": 1774556908585.1208,
+      "inode": 1209118,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d88cd2cb-7509-4616-b3fd-1d73f239d205.jsonl.deleted.2026-03-26T07-33-15.354Z": {
+      "offset": 6396,
+      "size": 6396,
+      "mtime": 1774423998045.1333,
+      "inode": 1142265,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d89cde15-0159-417e-bfcf-7d2409cb0499.jsonl": {
+      "offset": 7438,
+      "size": 7438,
+      "mtime": 1774567006404.4739,
+      "inode": 1326475,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d8aed4ad-20df-4ce5-8271-c9f468e12d90.jsonl.deleted.2026-03-26T22-58-47.904Z": {
+      "offset": 5578,
+      "size": 5578,
+      "mtime": 1774479497490.419,
+      "inode": 1170801,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/d9a43898-f2d1-4a71-aefd-6e48406202ae.jsonl.deleted.2026-03-26T09-33-17.182Z": {
+      "offset": 5834,
+      "size": 5834,
+      "mtime": 1774431197722.508,
+      "inode": 1144285,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/da195915-38fd-4f84-b36d-ec11f5673f7e.jsonl.deleted.2026-03-26T23-15-47.671Z": {
+      "offset": 6440,
+      "size": 6440,
+      "mtime": 1774480398102.5933,
+      "inode": 1171225,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/da21addf-7d1d-40d1-baf5-c8c18c7c4136.jsonl.deleted.2026-03-26T05-58-11.726Z": {
+      "offset": 6486,
+      "size": 6486,
+      "mtime": 1774417998022.8374,
+      "inode": 1133886,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/da54ea5a-c4a3-493b-9598-dff8a90cf149.jsonl.deleted.2026-03-26T06-18-14.148Z": {
+      "offset": 6215,
+      "size": 6215,
+      "mtime": 1774419499335.4658,
+      "inode": 1134768,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/daae04f6-762c-471a-8fdf-27568b804f60.jsonl": {
+      "offset": 7208,
+      "size": 7208,
+      "mtime": 1774566767046.971,
+      "inode": 1326386,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/dbb6397e-9b66-47a4-8b2e-f407a9de32f9.jsonl": {
+      "offset": 7423,
+      "size": 7423,
+      "mtime": 1774565807487.5325,
+      "inode": 1323312,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/dc013170-60d4-4478-a4a4-779551a11fb4.jsonl.deleted.2026-03-26T04-13-09.947Z": {
+      "offset": 5605,
+      "size": 5605,
+      "mtime": 1774411697079.7634,
+      "inode": 1127226,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/dc2b873b-bff1-4920-a633-4b5b440c6326.jsonl.deleted.2026-03-26T16-59-12.667Z": {
+      "offset": 5995,
+      "size": 5995,
+      "mtime": 1774457897965.1897,
+      "inode": 1162014,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/dc8684f6-efaa-4a06-9453-ccf5635a8655.jsonl": {
+      "offset": 6964,
+      "size": 6964,
+      "mtime": 1774569286764.025,
+      "inode": 1335612,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/dda64a79-6b09-4c58-8fad-c45a55058556.jsonl": {
+      "offset": 7147,
+      "size": 7147,
+      "mtime": 1774567606730.9182,
+      "inode": 1326713,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ddd34b9b-ece2-4e4f-be88-e563b0088b98.jsonl.deleted.2026-03-26T00-47-54.621Z": {
+      "offset": 5850,
+      "size": 5850,
+      "mtime": 1774399398695.0312,
+      "inode": 1115140,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/deab0b85-0a1c-489a-a3d5-48cdf086d49b.jsonl.deleted.2026-03-26T01-07-54.991Z": {
+      "offset": 6170,
+      "size": 6170,
+      "mtime": 1774400598291.704,
+      "inode": 1115566,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/defce0bc-f019-4dd6-892f-96feaf7cbbc8.jsonl.deleted.2026-03-26T01-42-55.650Z": {
+      "offset": 11154,
+      "size": 11154,
+      "mtime": 1774402708319.4832,
+      "inode": 1122778,
+      "recordCount": 4
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e09a4e41-a92b-4fd9-8907-9cdb745f9634.jsonl.deleted.2026-03-26T11-23-18.782Z": {
+      "offset": 5887,
+      "size": 5887,
+      "mtime": 1774437797862.2424,
+      "inode": 1146268,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e0abef69-46e3-4d77-9cfa-e90f3cb02159.jsonl.deleted.2026-03-26T10-43-18.210Z": {
+      "offset": 6034,
+      "size": 6034,
+      "mtime": 1774435398298.2825,
+      "inode": 1145568,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e114fe6d-0cf7-444c-b8a5-481f15247ace.jsonl.deleted.2026-03-26T22-16-47.470Z": {
+      "offset": 5681,
+      "size": 5681,
+      "mtime": 1774476797929.7175,
+      "inode": 1169454,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e360e73b-ea95-4e62-8ce4-59ae632f715e.jsonl.reset.2026-03-26T08-28-25.199Z": {
+      "offset": 199867,
+      "size": 199867,
+      "mtime": 1774511915477.1506,
+      "inode": 1143018,
+      "recordCount": 72
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e361f920-97c8-4e91-a24e-7f7b4027bdb6.jsonl": {
+      "offset": 7077,
+      "size": 7077,
+      "mtime": 1774565446665.7905,
+      "inode": 1323211,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e45c9de3-4d85-4ba3-861c-b526cd91c862.jsonl.deleted.2026-03-26T10-28-17.985Z": {
+      "offset": 6142,
+      "size": 6142,
+      "mtime": 1774434497739.2969,
+      "inode": 1145195,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e59d3601-ef5b-41eb-a4b8-550cc50f87bf.jsonl.deleted.2026-03-26T20-06-44.753Z": {
+      "offset": 6138,
+      "size": 6138,
+      "mtime": 1774469016581.8403,
+      "inode": 1166677,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e748da83-c6fa-4807-82d7-7448ec71172e.jsonl": {
+      "offset": 6983,
+      "size": 6983,
+      "mtime": 1774561726194.7495,
+      "inode": 1321805,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e8306417-6f7f-46d7-b3aa-cb418b4f1b5a.jsonl": {
+      "offset": 7098,
+      "size": 7098,
+      "mtime": 1774563166107.138,
+      "inode": 1322451,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e944731a-d970-48a2-9df4-b0fedbb6b861.jsonl.deleted.2026-03-26T05-23-11.146Z": {
+      "offset": 18280,
+      "size": 18280,
+      "mtime": 1774415909769.1729,
+      "inode": 1128486,
+      "recordCount": 6
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e9b73536-cb0d-4713-af04-6385a32ede59.jsonl.deleted.2026-03-26T19-51-44.593Z": {
+      "offset": 6104,
+      "size": 6104,
+      "mtime": 1774468097548.7927,
+      "inode": 1166480,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/e9da838c-31e0-455a-baff-4ab4ca058f73.jsonl": {
+      "offset": 7303,
+      "size": 7303,
+      "mtime": 1774560045677.6165,
+      "inode": 1228959,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/eb40102c-1f69-4ae6-a0e1-b315a2960ea7.jsonl": {
+      "offset": 6876,
+      "size": 6876,
+      "mtime": 1774567486550.2356,
+      "inode": 1326678,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ebc622e7-28c8-44c1-9846-09be04163b64.jsonl.deleted.2026-03-26T20-54-24.291Z": {
+      "offset": 6116,
+      "size": 6116,
+      "mtime": 1774471997923.962,
+      "inode": 1167487,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ed02c6c2-560c-49c3-9416-1d567ee27eb8.jsonl.deleted.2026-03-26T01-17-55.184Z": {
+      "offset": 6031,
+      "size": 6031,
+      "mtime": 1774401196965.7683,
+      "inode": 1122258,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ed4f1f80-b44e-4066-bebf-bc92218c467c.jsonl.deleted.2026-03-26T17-04-12.725Z": {
+      "offset": 6138,
+      "size": 6138,
+      "mtime": 1774458197575.6235,
+      "inode": 1162075,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/eed98d3c-481c-4254-ac80-e08b27c8310f.jsonl": {
+      "offset": 7147,
+      "size": 7147,
+      "mtime": 1774559688368.3684,
+      "inode": 1228338,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f0a8d54e-9c2e-4260-a707-86addf27b2a3.jsonl.deleted.2026-03-26T10-18-17.843Z": {
+      "offset": 5858,
+      "size": 5858,
+      "mtime": 1774433897394.364,
+      "inode": 1145054,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f1134686-d9df-476a-9884-fcd8fddb4959.jsonl.deleted.2026-03-26T09-13-16.894Z": {
+      "offset": 6206,
+      "size": 6206,
+      "mtime": 1774430004071.585,
+      "inode": 1143973,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f1b38f57-8c8a-4a20-9ca0-cf9ba071915d.jsonl.deleted.2026-03-26T02-02-56.017Z": {
+      "offset": 14554,
+      "size": 14554,
+      "mtime": 1774403908828.8872,
+      "inode": 1123215,
+      "recordCount": 5
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f33a9466-85da-407b-a373-d10c886c6551.jsonl": {
+      "offset": 7210,
+      "size": 7210,
+      "mtime": 1774561126431.7478,
+      "inode": 1230828,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f375d449-09cc-4144-a335-d0ae424fbafe.jsonl.deleted.2026-03-26T02-12-56.209Z": {
+      "offset": 5841,
+      "size": 5841,
+      "mtime": 1774404497790.7944,
+      "inode": 1123527,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f3cc27a0-b0d7-444b-8477-23167ed340f8.jsonl.deleted.2026-03-26T05-08-10.894Z": {
+      "offset": 5833,
+      "size": 5833,
+      "mtime": 1774414997832.6372,
+      "inode": 1128214,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f3ddc99f-6521-4e7a-a138-9d829545ec30.jsonl.deleted.2026-03-26T21-26-53.426Z": {
+      "offset": 12241,
+      "size": 12241,
+      "mtime": 1774473805054.8726,
+      "inode": 1167948,
+      "recordCount": 3
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f411d4ff-ce23-4925-b58f-7d5e8570a088.jsonl.deleted.2026-03-26T19-09-14.176Z": {
+      "offset": 6173,
+      "size": 6173,
+      "mtime": 1774465699287.8289,
+      "inode": 1164224,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f4afc7d8-eb7b-4614-a4f0-25ae49e92eb9.jsonl.deleted.2026-03-26T21-21-45.762Z": {
+      "offset": 5804,
+      "size": 5804,
+      "mtime": 1774473499609.728,
+      "inode": 1167891,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f4fa0a4c-6198-4665-bca6-cd97e71980d7.jsonl.deleted.2026-03-26T23-21-46.288Z": {
+      "offset": 13430,
+      "size": 13430,
+      "mtime": 1774480664406.612,
+      "inode": 1171364,
+      "recordCount": 4
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f5465e76-50b1-404a-adb1-442f3dde1f36.jsonl.deleted.2026-03-26T00-37-54.427Z": {
+      "offset": 6142,
+      "size": 6142,
+      "mtime": 1774398796662.7173,
+      "inode": 1115004,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f555c6c6-a22a-4b34-ab6a-d16736fe72ab.jsonl": {
+      "offset": 7587,
+      "size": 7587,
+      "mtime": 1774562447410.817,
+      "inode": 1322169,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f56fa926-bc65-4012-a7bc-87797cdc93e1.jsonl.deleted.2026-03-26T07-23-15.196Z": {
+      "offset": 6155,
+      "size": 6155,
+      "mtime": 1774423398161.7937,
+      "inode": 1142124,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f57cd1dc-ff16-4e0b-a54a-6fa5ab54c664.jsonl.deleted.2026-03-26T20-48-20.775Z": {
+      "offset": 5692,
+      "size": 5692,
+      "mtime": 1774471697855.9614,
+      "inode": 1167425,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f6269180-c418-48cb-b3b8-1517357f11ad.jsonl.deleted.2026-03-26T03-22-57.476Z": {
+      "offset": 5933,
+      "size": 5933,
+      "mtime": 1774408697265.0054,
+      "inode": 1126481,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f6e04851-6d74-4900-ac94-7557a0a0a556.jsonl.deleted.2026-03-26T21-55-46.219Z": {
+      "offset": 6087,
+      "size": 6087,
+      "mtime": 1774475597562.4026,
+      "inode": 1168701,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f781dd6c-f425-46ec-b9db-75c54a5a074e.jsonl.deleted.2026-03-26T08-13-15.988Z": {
+      "offset": 5722,
+      "size": 5722,
+      "mtime": 1774426397959.9148,
+      "inode": 1142822,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f7a2083f-22bc-4a10-8d87-b3df1b75b987.jsonl": {
+      "offset": 7269,
+      "size": 7269,
+      "mtime": 1774559810397.0986,
+      "inode": 1228568,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f88a52d4-92c0-41ff-a47e-dfee0b8ef4d1.jsonl.deleted.2026-03-26T17-44-13.224Z": {
+      "offset": 6059,
+      "size": 6059,
+      "mtime": 1774460597892.4146,
+      "inode": 1162637,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f8d1945b-9779-43a4-beb0-9942c6046a17.jsonl.deleted.2026-03-26T04-53-10.634Z": {
+      "offset": 6131,
+      "size": 6131,
+      "mtime": 1774414097396.8884,
+      "inode": 1127985,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/f937cfd4-d3ed-4842-959f-b12fc1161957.jsonl.deleted.2026-03-26T17-09-12.786Z": {
+      "offset": 6082,
+      "size": 6082,
+      "mtime": 1774458497421.6348,
+      "inode": 1162138,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/fb8a7339-423e-46cd-bd4a-c1537ca58c19.jsonl.deleted.2026-03-26T23-09-47.875Z": {
+      "offset": 5770,
+      "size": 5770,
+      "mtime": 1774480097908.6165,
+      "inode": 1170992,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/fbb5f6b6-af38-4803-8d2f-972e182ee351.jsonl.deleted.2026-03-26T21-49-46.294Z": {
+      "offset": 5761,
+      "size": 5761,
+      "mtime": 1774475301471.2795,
+      "inode": 1168408,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/fce8563e-558c-4996-ad14-739c470c2d57.jsonl.deleted.2026-03-26T19-04-14.131Z": {
+      "offset": 6082,
+      "size": 6082,
+      "mtime": 1774465399149.366,
+      "inode": 1164084,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/fcf31cd5-44f5-42f1-a472-ce5c7b05ba41.jsonl.deleted.2026-03-26T02-07-56.125Z": {
+      "offset": 6048,
+      "size": 6048,
+      "mtime": 1774404197621.5066,
+      "inode": 1123313,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/fda774d2-cf9b-4631-b16e-f0efd2bc19ad.jsonl": {
+      "offset": 5648,
+      "size": 5648,
+      "mtime": 1774567848163.2708,
+      "inode": 1326780,
+      "recordCount": 2
+    },
+    "/Users/douglasdweck/.openclaw/agents/main/sessions/ff839585-11ed-4d7b-8754-2b7d58b1571f.jsonl.deleted.2026-03-26T04-33-10.299Z": {
+      "offset": 6208,
+      "size": 6208,
+      "mtime": 1774412897933.3948,
+      "inode": 1127623,
+      "recordCount": 2
+    }
+  },
+  "lastReconcile": 1774569323349
+}
