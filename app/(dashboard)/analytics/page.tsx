@@ -243,17 +243,9 @@ export default function AnalyticsPage() {
     setSyncing(true);
     setSyncResult(null);
     try {
-      const res = await fetch("/api/analytics/sync", { method: "POST" });
-      const json = await res.json();
-      if (json.error) {
-        setSyncResult(`Error: ${json.error}`);
-      } else {
-        setSyncResult(
-          `${json.totalRecords.toLocaleString()} records from ${json.totalSessions} sessions synced. Last sync: ${json.lastSyncAt ? new Date(json.lastSyncAt).toLocaleString() : "never"}. To pull new data, ask Paul to run the sync script.`
-        );
-        // Refresh data
-        await fetchData();
-      }
+      // Just refresh the data — sync runs automatically every 30 min
+      await fetchData();
+      setSyncResult("Data refreshed. Token data auto-syncs every 30 minutes.");
     } catch (e) {
       setSyncResult(`Error: ${String(e)}`);
     } finally {
@@ -413,8 +405,8 @@ export default function AnalyticsPage() {
               opacity: syncing ? 0.7 : 1,
             }}
           >
-            <Download size={14} />
-            {syncing ? "Syncing..." : "Pull Token Data"}
+            <RefreshCw size={14} />
+            {syncing ? "Refreshing..." : "Refresh Data"}
           </button>
         </div>
       </div>
