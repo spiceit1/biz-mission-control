@@ -24,12 +24,12 @@ import {
   BarChart3,
   Heart,
   CheckCircle,
+  Factory,
 } from "lucide-react";
 
 const nav = [
   { href: "/overview", icon: Home, label: "Overview" },
-  { href: "/agents", icon: Cpu, label: "Agents" },
-  { href: "/tasks", icon: ClipboardList, label: "Tasks" },
+  { href: "/factory", icon: Factory, label: "Factory" },
   { href: "/activity", icon: Activity, label: "Activity" },
   { href: "/heartbeat", icon: Heart, label: "Heartbeat" },
   { href: "/cron", icon: Calendar, label: "Cron Jobs" },
